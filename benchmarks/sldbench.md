@@ -2,7 +2,9 @@
 
 *October 2026. One frozen build of NAI, five replicates.*
 
-SLDBench (Lin et al., ICLR 2026) asks a system to discover a scaling law from training runs of neural networks and to predict the loss of larger or differently configured runs. The systems reported with the benchmark are agents built on large language models. NAI uses no language model.
+SLDBench (Lin et al., ICLR 2026) asks a system to discover a scaling law from training runs of neural networks and to predict the loss of larger or differently configured runs. The systems reported with the benchmark are agents built on large language models.
+
+**NAI uses no language model.**
 
 ## Result in brief
 

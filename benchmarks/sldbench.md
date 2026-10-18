@@ -55,6 +55,6 @@ An earlier check of the same kind, made with an earlier build of NAI on fresh da
 - **Rules.** One form per task, constants fitted per group within the benchmark's limit, the test used only for the final score, computed with SLDBench's own evaluator; five replicates, as in the SLDBench paper.
 - **Budget.** About 70 minutes per search of all eight tasks on a laptop processor, so about 3.5 hours per replicate of three searches. The SLDBench repository gives 30 to 60 minutes per task for SLDAgent, which uses a large language model through an API and may have seen the papers the tasks come from.
 - **Assumption given to NAI.** Loss does not increase with model size, data or the number of experts, the standard assumption of the field.
-- **The test was seen 16 times** during development. The reported number comes from fifteen new searches, and the last changes were decided on other data.
+- **The test was seen 16 times** during development, and once more afterwards to score a variant of the lr&bsz fit, which was then rejected on training data alone (it was worse there) and is not part of the result. The reported number comes from fifteen new searches, and the last changes were decided on other data.
 - **Other systems' numbers** are from the SLDBench paper, not rerun by me.
 - **Readability.** Some chosen forms are compact approximations rather than laws one would write by hand.

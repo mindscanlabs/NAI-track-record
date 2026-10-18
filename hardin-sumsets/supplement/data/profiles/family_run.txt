@@ -1,0 +1,28 @@
+A183877 arrange  q=3 s=2  data 200 terms equal: True  closed form for n >= 2  existing: closed form for n >= 2: True; g.f. (45 terms): True; recurrence (checked n = 18..65): True
+A183878 arrange  q=4 s=2  data 199 terms equal: True  closed form for n >= 3  existing: closed form for n >= 3: True; g.f. (45 terms): True; recurrence (checked n = 22..69): True
+A183879 arrange  q=5 s=2  data 185 terms equal: True  closed form for n >= 2  existing: closed form for n >= 2: True; g.f. (45 terms): True; recurrence (checked n = 22..69): True
+A183880 arrange  q=6 s=2  data 122 terms equal: True  closed form for n >= 3  existing: -
+A183881 arrange  q=7 s=2  data 80 terms equal: True  closed form for n >= 4  existing: -
+A183882 arrange  q=8 s=2  data 65 terms equal: True  closed form for n >= 4  existing: -
+A183883 arrange  q=9 s=2  data 53 terms equal: True  closed form for n >= 4  existing: -
+A183885 arrange  q=3 s=3  data 62 terms equal: True  closed form for n >= 3  existing: closed form for n >= 3: True; g.f. (45 terms): True; recurrence (checked n = 19..66): True
+A183886 arrange  q=4 s=3  data 62 terms equal: True  closed form for n >= 2  existing: closed form for n >= 2: True; g.f. (45 terms): True; recurrence (checked n = 21..68): True
+A183887 arrange  q=5 s=3  data 62 terms equal: True  closed form for n >= 4  existing: -
+A183888 arrange  q=6 s=3  data 58 terms equal: True  closed form for n >= 5  existing: -
+A183889 arrange  q=7 s=3  data 37 terms equal: True  closed form for n >= 4  existing: -
+A183890 arrange  q=8 s=3  data 30 terms equal: True  closed form for n >= 5  existing: -
+A183891 arrange  q=9 s=3  data 22 terms equal: True  closed form for n >= 6  existing: -
+A183897 nondecr  q=3 s=3  data 62 terms equal: True  closed form for n >= 3  existing: closed form for n >= 3: True; g.f. (45 terms): True; recurrence (checked n = 18..65): True
+A183898 nondecr  q=4 s=3  data 62 terms equal: True  closed form for n >= 2  existing: closed form for n >= 2: True; g.f. (45 terms): True; recurrence (checked n = 18..65): True
+A183899 nondecr  q=5 s=3  data 62 terms equal: True  closed form for n >= 4  existing: closed form for n >= 4: True; g.f. (45 terms): True; recurrence (checked n = 21..68): True
+A183900 nondecr  q=6 s=3  data 57 terms equal: True  closed form for n >= 5  existing: closed form for n >= 5: True; g.f. (45 terms): True; recurrence (checked n = 23..70): True
+A183901 nondecr  q=7 s=3  data 37 terms equal: True  closed form for n >= 4  existing: closed form for n >= 4: True; g.f. (45 terms): True; recurrence (checked n = 23..70): True
+A183902 nondecr  q=8 s=3  data 29 terms equal: True  closed form for n >= 5  existing: closed form for n >= 5: True; closed form for n >= 5: True
+A183903 nondecr  q=9 s=3  data 21 terms equal: True  closed form for n >= 6  existing: closed form for n >= 6: True; closed form for n >= 6: True
+A183905 nondecr  q=3 s=2  data 200 terms equal: True  closed form for n >= 2  existing: closed form for n >= 2: True; g.f. (45 terms): True; recurrence (checked n = 17..64): True
+A183906 nondecr  q=4 s=2  data 199 terms equal: True  closed form for n >= 3  existing: closed form for n >= 3: True; g.f. (45 terms): True; recurrence (checked n = 19..66): True
+A183907 nondecr  q=5 s=2  data 180 terms equal: True  closed form for n >= 2  existing: closed form for n >= 2: True; g.f. (45 terms): True; recurrence (checked n = 19..66): True
+A183908 nondecr  q=6 s=2  data 132 terms equal: True  closed form for n >= 3  existing: closed form for n >= 3: True; g.f. (45 terms): True; recurrence (checked n = 20..67): True
+A183909 nondecr  q=7 s=2  data 76 terms equal: True  closed form for n >= 4  existing: closed form for n >= 4: True; g.f. (45 terms): True; recurrence (checked n = 23..70): True
+A183910 nondecr  q=8 s=2  data 61 terms equal: True  closed form for n >= 4  existing: closed form for n >= 4: True; g.f. (45 terms): True; recurrence (checked n = 23..70): True
+A183911 nondecr  q=9 s=2  data 52 terms equal: True  closed form for n >= 4  existing: closed form for n >= 4: True; g.f. (45 terms): True; recurrence (checked n = 24..71): True

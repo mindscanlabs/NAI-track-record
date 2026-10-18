@@ -1,0 +1,10 @@
+A183881: q=7, s=2; valid profiles 13234; exact count = b-file for the first 80 terms: True
+   exponentials present (k with nonzero terms): [1, 2, 3, 7]
+   closed form (k >= 1 part) minus the conjecture, simplified: 0
+   polynomial-only terms t^a with a in [0, 1, 2, 3, 4, 5], so the closed form holds for m > 5, i.e. n >= 4
+   conjecture fails at n = [1, 2, 3] (b-file)
+A183887: q=5, s=3; valid profiles 2640; exact count = b-file for the first 62 terms: True
+   exponentials present (k with nonzero terms): [1, 2, 5]
+   closed form (k >= 1 part) minus the conjecture, simplified: 0
+   polynomial-only terms t^a with a in [1, 2, 3, 4, 5, 6], so the closed form holds for m > 6, i.e. n >= 4
+   conjecture fails at n = [1, 2, 3] (b-file)

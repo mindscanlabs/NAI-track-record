@@ -1,0 +1,384 @@
+[
+ {
+  "id": "A183877",
+  "kind": "arrangements",
+  "q": 3,
+  "s": 2,
+  "bfile_terms": 200,
+  "exact_equals_data": true,
+  "closed_form_from_n": 2,
+  "formula": "9*3**n - 2*n**2 - 12*n - 18",
+  "existing": [
+   "closed form for n >= 2: True",
+   "g.f. (45 terms): True",
+   "recurrence (checked n = 18..65): True"
+  ]
+ },
+ {
+  "id": "A183878",
+  "kind": "arrangements",
+  "q": 4,
+  "s": 2,
+  "bfile_terms": 199,
+  "exact_equals_data": true,
+  "closed_form_from_n": 3,
+  "formula": "16*2**(2*n) + 2**n*(-8*n - 28) - 2*n**3 - 9*n**2 - 10*n + 3",
+  "existing": [
+   "closed form for n >= 3: True",
+   "g.f. (45 terms): True",
+   "recurrence (checked n = 22..69): True"
+  ]
+ },
+ {
+  "id": "A183879",
+  "kind": "arrangements",
+  "q": 5,
+  "s": 2,
+  "bfile_terms": 185,
+  "exact_equals_data": true,
+  "closed_form_from_n": 2,
+  "formula": "2**n*(-10*n**2 - 70*n - 124) + 25*5**n + 6*n**3 + 46*n**2 + 128*n + 128",
+  "existing": [
+   "closed form for n >= 2: True",
+   "g.f. (45 terms): True",
+   "recurrence (checked n = 22..69): True"
+  ]
+ },
+ {
+  "id": "A183880",
+  "kind": "arrangements",
+  "q": 6,
+  "s": 2,
+  "bfile_terms": 122,
+  "exact_equals_data": true,
+  "closed_form_from_n": 3,
+  "formula": "2**n*(-5*n**3/2 - 35*n**2/2 - 3*n + 128) + 3**n*(-36*n - 162) + 36*6**n + 2*n**4 + 23*n**3 + 85*n**2 + 117*n + 29",
+  "existing": []
+ },
+ {
+  "id": "A183881",
+  "kind": "arrangements",
+  "q": 7,
+  "s": 2,
+  "bfile_terms": 80,
+  "exact_equals_data": true,
+  "closed_form_from_n": 4,
+  "formula": "2**n*(9*n**3/2 + 201*n**2/2 + 522*n + 834) + 3**n*(-28*n**2 - 252*n - 554) + 49*7**n + 6*n**4 + 19*n**3 - 45*n**2 - 274*n - 342",
+  "existing": []
+ },
+ {
+  "id": "A183882",
+  "kind": "arrangements",
+  "q": 8,
+  "s": 2,
+  "bfile_terms": 65,
+  "exact_equals_data": true,
+  "closed_form_from_n": 4,
+  "formula": "64*2**(3*n) - 128*2**(2*n)*n - 688*2**(2*n) + 2**n*(n**4 + 63*n**3/2 + 435*n**2/2 + 447*n - 64) + 3**n*(-16*n**3/3 - 52*n**2 + 76*n/3 + 882) + 7*n**4 - 28*n**3 - 256*n**2 - 496*n - 263",
+  "existing": []
+ },
+ {
+  "id": "A183883",
+  "kind": "arrangements",
+  "q": 9,
+  "s": 2,
+  "bfile_terms": 53,
+  "exact_equals_data": true,
+  "closed_form_from_n": 4,
+  "formula": "-70*2**(2*n)*n**2 - 786*2**(2*n)*n - 2076*2**(2*n) + 2**n*(9*n**4/2 + 39*n**3 - 219*n**2/2 - 1350*n - 2634) + 81*3**(2*n) + 3**n*(11*n**3/3 + 251*n**2 + 5782*n/3 + 4140) - 3*n**5 - 57*n**4 - 245*n**3 - 373*n**2 + 8*n + 438",
+  "existing": []
+ },
+ {
+  "id": "A183885",
+  "kind": "arrangements",
+  "q": 3,
+  "s": 3,
+  "bfile_terms": 62,
+  "exact_equals_data": true,
+  "closed_form_from_n": 3,
+  "formula": "27*3**n - 2*n**2 - 16*n - 32",
+  "existing": [
+   "closed form for n >= 3: True",
+   "g.f. (45 terms): True",
+   "recurrence (checked n = 19..66): True"
+  ]
+ },
+ {
+  "id": "A183886",
+  "kind": "arrangements",
+  "q": 4,
+  "s": 3,
+  "bfile_terms": 62,
+  "exact_equals_data": true,
+  "closed_form_from_n": 2,
+  "formula": "64*2**(2*n) + 2**n*(-16*n - 48) - 14*n**3/3 - 34*n**2 - 250*n/3 - 72",
+  "existing": [
+   "closed form for n >= 2: True",
+   "g.f. (45 terms): True",
+   "recurrence (checked n = 21..68): True"
+  ]
+ },
+ {
+  "id": "A183887",
+  "kind": "arrangements",
+  "q": 5,
+  "s": 3,
+  "bfile_terms": 62,
+  "exact_equals_data": true,
+  "closed_form_from_n": 4,
+  "formula": "2**n*(-24*n - 104) + 125*5**n - 17*n**4/3 - 182*n**3/3 - 733*n**2/3 - 1312*n/3 - 288",
+  "existing": []
+ },
+ {
+  "id": "A183888",
+  "kind": "arrangements",
+  "q": 6,
+  "s": 3,
+  "bfile_terms": 58,
+  "exact_equals_data": true,
+  "closed_form_from_n": 5,
+  "formula": "2**n*(-32*n**2 - 256*n - 512) + 3**n*(-54*n - 162) + 216*6**n - 5*n**5/6 - 33*n**4/2 - 509*n**3/6 - 231*n**2/2 + 545*n/3 + 432",
+  "existing": []
+ },
+ {
+  "id": "A183889",
+  "kind": "arrangements",
+  "q": 7,
+  "s": 3,
+  "bfile_terms": 37,
+  "exact_equals_data": true,
+  "closed_form_from_n": 4,
+  "formula": "2**n*(-25*n**3 - 330*n**2 - 1451*n - 2154) + 343*7**n - 13*n**5 - 107*n**4 - 246*n**3 + 236*n**2 + 1762*n + 2046",
+  "existing": []
+ },
+ {
+  "id": "A183890",
+  "kind": "arrangements",
+  "q": 8,
+  "s": 3,
+  "bfile_terms": 30,
+  "exact_equals_data": true,
+  "closed_form_from_n": 5,
+  "formula": "512*2**(3*n) - 128*2**(2*n)*n - 384*2**(2*n) + 2**n*(-83*n**4/12 - 937*n**3/6 - 11761*n**2/12 - 13817*n/6 - 1632) + 3**n*(-216*n - 864) - 50*n**5/3 - 31*n**4 + 554*n**3 + 2865*n**2 + 15992*n/3 + 3616",
+  "existing": []
+ },
+ {
+  "id": "A183891",
+  "kind": "arrangements",
+  "q": 9,
+  "s": 3,
+  "bfile_terms": 22,
+  "exact_equals_data": true,
+  "closed_form_from_n": 6,
+  "formula": "2**n*(-17*n**5/16 - 641*n**4/16 - 7661*n**3/16 - 32335*n**2/16 - 20665*n/8 + 1074) + 729*3**(2*n) + 3**n*(-153*n**2 - 1737*n - 4698) - 8*n**6 - 71*n**5 + 95*n**4/2 + 2027*n**3 + 14569*n**2/2 + 10556*n + 5512",
+  "existing": []
+ },
+ {
+  "id": "A183897",
+  "kind": "nondecreasing",
+  "q": 3,
+  "s": 3,
+  "bfile_terms": 62,
+  "exact_equals_data": true,
+  "closed_form_from_n": 3,
+  "formula": "n**2/2 + 9*n/2 - 1",
+  "existing": [
+   "closed form for n >= 3: True",
+   "g.f. (45 terms): True",
+   "recurrence (checked n = 18..65): True"
+  ]
+ },
+ {
+  "id": "A183898",
+  "kind": "nondecreasing",
+  "q": 4,
+  "s": 3,
+  "bfile_terms": 62,
+  "exact_equals_data": true,
+  "closed_form_from_n": 2,
+  "formula": "n**3/6 + 5*n**2/2 + 25*n/3 - 14",
+  "existing": [
+   "closed form for n >= 2: True",
+   "g.f. (45 terms): True",
+   "recurrence (checked n = 18..65): True"
+  ]
+ },
+ {
+  "id": "A183899",
+  "kind": "nondecreasing",
+  "q": 5,
+  "s": 3,
+  "bfile_terms": 62,
+  "exact_equals_data": true,
+  "closed_form_from_n": 4,
+  "formula": "n**4/24 + 11*n**3/12 + 179*n**2/24 + 199*n/12 - 81",
+  "existing": [
+   "closed form for n >= 4: True",
+   "g.f. (45 terms): True",
+   "recurrence (checked n = 21..68): True"
+  ]
+ },
+ {
+  "id": "A183900",
+  "kind": "nondecreasing",
+  "q": 6,
+  "s": 3,
+  "bfile_terms": 57,
+  "exact_equals_data": true,
+  "closed_form_from_n": 5,
+  "formula": "n**5/120 + n**4/4 + 71*n**3/24 + 57*n**2/4 - 262*n/15 - 50",
+  "existing": [
+   "closed form for n >= 5: True",
+   "g.f. (45 terms): True",
+   "recurrence (checked n = 23..70): True"
+  ]
+ },
+ {
+  "id": "A183901",
+  "kind": "nondecreasing",
+  "q": 7,
+  "s": 3,
+  "bfile_terms": 37,
+  "exact_equals_data": true,
+  "closed_form_from_n": 4,
+  "formula": "n**6/720 + 13*n**5/240 + 125*n**4/144 + 117*n**3/16 + 12287*n**2/360 - 4421*n/30 - 44",
+  "existing": [
+   "closed form for n >= 4: True",
+   "g.f. (45 terms): True",
+   "recurrence (checked n = 23..70): True"
+  ]
+ },
+ {
+  "id": "A183902",
+  "kind": "nondecreasing",
+  "q": 8,
+  "s": 3,
+  "bfile_terms": 29,
+  "exact_equals_data": true,
+  "closed_form_from_n": 5,
+  "formula": "n**7/5040 + 7*n**6/720 + 29*n**5/144 + 329*n**4/144 + 1259*n**3/90 + 5167*n**2/180 - 6955*n/21 + 312",
+  "existing": [
+   "closed form for n >= 5: True",
+   "closed form for n >= 5: True"
+  ]
+ },
+ {
+  "id": "A183903",
+  "kind": "nondecreasing",
+  "q": 9,
+  "s": 3,
+  "bfile_terms": 21,
+  "exact_equals_data": true,
+  "closed_form_from_n": 6,
+  "formula": "n**8/40320 + n**7/672 + 37*n**6/960 + 9*n**5/16 + 9709*n**4/1920 + 917*n**3/32 + 14159*n**2/10080 - 119065*n/168 + 801",
+  "existing": [
+   "closed form for n >= 6: True",
+   "closed form for n >= 6: True"
+  ]
+ },
+ {
+  "id": "A183905",
+  "kind": "nondecreasing",
+  "q": 3,
+  "s": 2,
+  "bfile_terms": 200,
+  "exact_equals_data": true,
+  "closed_form_from_n": 2,
+  "formula": "n**2/2 + 7*n/2 - 5",
+  "existing": [
+   "closed form for n >= 2: True",
+   "g.f. (45 terms): True",
+   "recurrence (checked n = 17..64): True"
+  ]
+ },
+ {
+  "id": "A183906",
+  "kind": "nondecreasing",
+  "q": 4,
+  "s": 2,
+  "bfile_terms": 199,
+  "exact_equals_data": true,
+  "closed_form_from_n": 3,
+  "formula": "n**3/6 + 2*n**2 + 5*n/6 - 8",
+  "existing": [
+   "closed form for n >= 3: True",
+   "g.f. (45 terms): True",
+   "recurrence (checked n = 19..66): True"
+  ]
+ },
+ {
+  "id": "A183907",
+  "kind": "nondecreasing",
+  "q": 5,
+  "s": 2,
+  "bfile_terms": 180,
+  "exact_equals_data": true,
+  "closed_form_from_n": 2,
+  "formula": "n**4/24 + 3*n**3/4 + 119*n**2/24 - 95*n/4 + 23",
+  "existing": [
+   "closed form for n >= 2: True",
+   "g.f. (45 terms): True",
+   "recurrence (checked n = 19..66): True"
+  ]
+ },
+ {
+  "id": "A183908",
+  "kind": "nondecreasing",
+  "q": 6,
+  "s": 2,
+  "bfile_terms": 132,
+  "exact_equals_data": true,
+  "closed_form_from_n": 3,
+  "formula": "n**5/120 + 5*n**4/24 + 49*n**3/24 - 29*n**2/24 - 461*n/20 + 43",
+  "existing": [
+   "closed form for n >= 3: True",
+   "g.f. (45 terms): True",
+   "recurrence (checked n = 20..67): True"
+  ]
+ },
+ {
+  "id": "A183909",
+  "kind": "nondecreasing",
+  "q": 7,
+  "s": 2,
+  "bfile_terms": 76,
+  "exact_equals_data": true,
+  "closed_form_from_n": 4,
+  "formula": "n**6/720 + 11*n**5/240 + 89*n**4/144 + 209*n**3/48 - 13003*n**2/360 + 531*n/10 + 12",
+  "existing": [
+   "closed form for n >= 4: True",
+   "g.f. (45 terms): True",
+   "recurrence (checked n = 23..70): True"
+  ]
+ },
+ {
+  "id": "A183910",
+  "kind": "nondecreasing",
+  "q": 8,
+  "s": 2,
+  "bfile_terms": 61,
+  "exact_equals_data": true,
+  "closed_form_from_n": 4,
+  "formula": "n**7/5040 + n**6/120 + 53*n**5/360 + 17*n**4/12 - 1313*n**3/720 - 1777*n**2/40 + 14876*n/105 - 83",
+  "existing": [
+   "closed form for n >= 4: True",
+   "g.f. (45 terms): True",
+   "recurrence (checked n = 23..70): True"
+  ]
+ },
+ {
+  "id": "A183911",
+  "kind": "nondecreasing",
+  "q": 9,
+  "s": 2,
+  "bfile_terms": 52,
+  "exact_equals_data": true,
+  "closed_form_from_n": 4,
+  "formula": "n**8/40320 + 13*n**7/10080 + 83*n**6/2880 + 13*n**5/36 + 15967*n**4/5760 - 45839*n**3/1440 + 59583*n**2/1120 + 20743*n/168 - 297",
+  "existing": [
+   "closed form for n >= 4: True",
+   "g.f. (45 terms): True",
+   "recurrence (checked n = 24..71): True"
+  ]
+ }
+]

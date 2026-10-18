@@ -22,3 +22,5 @@ Checks registered before the run, on data I had not used:
 | fresh data of five SLDBench task types (earlier build) | 2 of 5 tasks at or above the standard forms; a failure on u_shape | hypotheses not confirmed |
 
 Each report states the conditions and what was seen during development.
+
+**Reproduction.** NAI's outputs (the chosen formulas and the logs of the runs) are not published. A compiled build of NAI that reproduces these results on the benchmarks' data, and runs on any other data, is available on request: lab@mindscan.org.

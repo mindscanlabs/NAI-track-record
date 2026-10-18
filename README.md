@@ -21,6 +21,7 @@ results came from NAI and which were obtained afterwards, and by whom.
 |---|---|---|---|
 | October 2026 | Hardin's Arrangements in Which Every Number Is a Sum of Others: Formulas and Sumsets | [hardin-sumsets](hardin-sumsets/) | preprint; submitted to the Journal of Integer Sequences |
 | October 2026 | OEIS findings that began with NAI (history and status of the edits) | [oeis-findings](oeis-findings/) | updated as the OEIS reviews the edits |
+| October 2026 | NAI on public benchmarks: SRBench, SLDBench, OEIS, compared with other systems | [benchmarks](benchmarks/) | short reports |
 
 Each paper folder holds the document (PDF and LaTeX source) and a `supplement`
 with the programs and data needed to check it.

@@ -15,6 +15,76 @@ fixing their form in advance. NAI does not use language models. Its source code
 and method are not part of this repository; each document says exactly which of its
 results came from NAI and which were obtained afterwards, and by whom.
 
+## Benchmarks at a glance
+
+NAI against the other systems reported with each benchmark; first place on top.
+NAI ran on a laptop processor with no language model, one run per problem (five on
+SLDBench). Conditions, caveats and what was seen during development:
+[benchmarks](benchmarks/).
+
+### SLDBench: discovering neural scaling laws
+
+Mean R² over the 8 tasks. NAI: 0.775 ± 0.024 over five runs. Other systems: the
+benchmark's published results data (five runs each; Gemini CLI and OpenHands three to
+four). The test was seen during NAI's development; see the [report](benchmarks/sldbench.md).
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="benchmarks/charts/sldbench_dark.svg">
+  <img src="benchmarks/charts/sldbench_light.svg" alt="SLDBench mean R²: NAI 0.775, SLDAgent (GPT-5) 0.748, Goose (GPT-5) 0.695, and others">
+</picture>
+
+### SRBench 2021: exact recovery of the Feynman equations
+
+Share of the 116 equations recovered exactly (up to a constant term or factor),
+symbolic check with positive variables; under the strict check NAI recovers 56.9 %,
+still first. Other methods: SRBench's published table, mean of 10 runs (AI Feynman
+over 114 equations).
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="benchmarks/charts/feynman_dark.svg">
+  <img src="benchmarks/charts/feynman_light.svg" alt="Feynman equations recovered without noise: NAI 60.3 %, AI Feynman 55.8 %, AFP_FE 27.0 %, and others">
+</picture>
+
+### SRBench 2021: Feynman equations with 1 % noise
+
+Strict symbolic check: NAI 45.7 %.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="benchmarks/charts/feynman_noise_dark.svg">
+  <img src="benchmarks/charts/feynman_noise_light.svg" alt="Feynman equations recovered with 1 % noise: NAI 48.3 %, gplearn 13.2 %, EPLEX 8.8 %, and others">
+</picture>
+
+### SRBench 2021: ODE-Strogatz systems
+
+Share of the 14 problems recovered exactly.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="benchmarks/charts/strogatz_dark.svg">
+  <img src="benchmarks/charts/strogatz_light.svg" alt="ODE-Strogatz problems recovered: NAI 85.7 %, GP-GOMEA 29.5 %, AI Feynman 27.1 %, and others">
+</picture>
+
+### SRBench 2025: real measurements of physical laws
+
+Median R² over the 13 first-principles datasets; the top 12 of 28 systems. Other
+systems: median over 30 tuned runs of up to an hour; NAI: one run of 120 s. By mean
+R², NAI is fourth.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="benchmarks/charts/first_principles_dark.svg">
+  <img src="benchmarks/charts/first_principles_light.svg" alt="SRBench 2025 first-principles median R²: NAI 0.9925, QLattice 0.9867, PySR 0.9135, and others">
+</picture>
+
+### SRBench 2025: black-box regression
+
+Mean R² over the 12 black-box datasets (R² below -1 counted as -1); the top 8 of 29
+systems and NAI, 26th. These problems have no law behind them; NAI looks for laws and
+is not competitive here.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="benchmarks/charts/black_box_dark.svg">
+  <img src="benchmarks/charts/black_box_light.svg" alt="SRBench 2025 black-box mean R²: Rils-Rols 0.640 first; NAI 0.090, 26th of 29">
+</picture>
+
 ## Documents
 
 | date | document | folder | status |

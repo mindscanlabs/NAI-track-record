@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="320" viewBox="0 0 760 320" role="img" aria-labelledby="t d">
+<title id="t">SRBench 2025: real measurements of physical laws, median R² (top 12 of 28)</title>
+<desc id="d">NAI 0.993; QLattice 0.987; PySR 0.913; Operon 0.913; Rils-Rols 0.901; Bingo 0.894; GPZGD 0.887; EQL 0.875; FFX 0.872; AFP_FE 0.840; AFP 0.829; ITEA 0.824</desc>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">
+<text x="250" y="17.0" fill="#f0efec" text-anchor="end" dominant-baseline="central" font-weight="700">NAI</text>
+<path d="M260.0 9.0 H688.7 a4 4 0 0 1 4 4 V21.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#3987e5"/>
+<text x="698.7" y="17.0" fill="#f0efec" dominant-baseline="central" font-weight="700">0.993</text>
+<text x="250" y="43.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">QLattice</text>
+<path d="M260.0 35.0 H686.2 a4 4 0 0 1 4 4 V47.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="696.2" y="43.0" fill="#c3c2b7" dominant-baseline="central">0.987</text>
+<text x="250" y="69.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">PySR</text>
+<path d="M260.0 61.0 H654.3 a4 4 0 0 1 4 4 V73.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="664.3" y="69.0" fill="#c3c2b7" dominant-baseline="central">0.913</text>
+<text x="250" y="95.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">Operon</text>
+<path d="M260.0 87.0 H654.1 a4 4 0 0 1 4 4 V99.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="664.1" y="95.0" fill="#c3c2b7" dominant-baseline="central">0.913</text>
+<text x="250" y="121.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">Rils-Rols</text>
+<path d="M260.0 113.0 H648.9 a4 4 0 0 1 4 4 V125.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="658.9" y="121.0" fill="#c3c2b7" dominant-baseline="central">0.901</text>
+<text x="250" y="147.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">Bingo</text>
+<path d="M260.0 139.0 H645.8 a4 4 0 0 1 4 4 V151.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="655.8" y="147.0" fill="#c3c2b7" dominant-baseline="central">0.894</text>
+<text x="250" y="173.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">GPZGD</text>
+<path d="M260.0 165.0 H642.6 a4 4 0 0 1 4 4 V177.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="652.6" y="173.0" fill="#c3c2b7" dominant-baseline="central">0.887</text>
+<text x="250" y="199.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">EQL</text>
+<path d="M260.0 191.0 H637.5 a4 4 0 0 1 4 4 V203.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="647.5" y="199.0" fill="#c3c2b7" dominant-baseline="central">0.875</text>
+<text x="250" y="225.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">FFX</text>
+<path d="M260.0 217.0 H636.2 a4 4 0 0 1 4 4 V229.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="646.2" y="225.0" fill="#c3c2b7" dominant-baseline="central">0.872</text>
+<text x="250" y="251.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">AFP_FE</text>
+<path d="M260.0 243.0 H622.4 a4 4 0 0 1 4 4 V255.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="632.4" y="251.0" fill="#c3c2b7" dominant-baseline="central">0.840</text>
+<text x="250" y="277.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">AFP</text>
+<path d="M260.0 269.0 H617.5 a4 4 0 0 1 4 4 V281.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="627.5" y="277.0" fill="#c3c2b7" dominant-baseline="central">0.829</text>
+<text x="250" y="303.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">ITEA</text>
+<path d="M260.0 295.0 H615.4 a4 4 0 0 1 4 4 V307.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="625.4" y="303.0" fill="#c3c2b7" dominant-baseline="central">0.824</text>
+<line x1="260" y1="2" x2="260" y2="318" stroke="#383835" stroke-width="1"/>
+</g></svg>

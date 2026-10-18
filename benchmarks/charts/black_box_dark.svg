@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="268" viewBox="0 0 760 268" role="img" aria-labelledby="t d">
+<title id="t">SRBench 2025: black-box regression, mean R² (top 8 of 29, and NAI)</title>
+<desc id="d">Rils-Rols 0.640; QLattice 0.637; EQL 0.634; Operon 0.629; ITEA 0.628; Brush 0.627; PS-Tree 0.620; FEAT 0.609; NAI 0.090</desc>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">
+<text x="250" y="17.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">Rils-Rols</text>
+<path d="M260.0 9.0 H535.0 a4 4 0 0 1 4 4 V21.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="545.0" y="17.0" fill="#c3c2b7" dominant-baseline="central">0.640</text>
+<text x="250" y="43.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">QLattice</text>
+<path d="M260.0 35.0 H533.7 a4 4 0 0 1 4 4 V47.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="543.7" y="43.0" fill="#c3c2b7" dominant-baseline="central">0.637</text>
+<text x="250" y="69.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">EQL</text>
+<path d="M260.0 61.0 H532.4 a4 4 0 0 1 4 4 V73.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="542.4" y="69.0" fill="#c3c2b7" dominant-baseline="central">0.634</text>
+<text x="250" y="95.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">Operon</text>
+<path d="M260.0 87.0 H530.2 a4 4 0 0 1 4 4 V99.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="540.2" y="95.0" fill="#c3c2b7" dominant-baseline="central">0.629</text>
+<text x="250" y="121.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">ITEA</text>
+<path d="M260.0 113.0 H529.8 a4 4 0 0 1 4 4 V125.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="539.8" y="121.0" fill="#c3c2b7" dominant-baseline="central">0.628</text>
+<text x="250" y="147.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">Brush</text>
+<path d="M260.0 139.0 H529.4 a4 4 0 0 1 4 4 V151.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="539.4" y="147.0" fill="#c3c2b7" dominant-baseline="central">0.627</text>
+<text x="250" y="173.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">PS-Tree</text>
+<path d="M260.0 165.0 H526.3 a4 4 0 0 1 4 4 V177.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="536.3" y="173.0" fill="#c3c2b7" dominant-baseline="central">0.620</text>
+<text x="250" y="199.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">FEAT</text>
+<path d="M260.0 191.0 H521.5 a4 4 0 0 1 4 4 V203.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="531.5" y="199.0" fill="#c3c2b7" dominant-baseline="central">0.609</text>
+<text x="250" y="225.0" fill="#898781" text-anchor="end" dominant-baseline="central">⋯</text>
+<text x="250" y="251.0" fill="#f0efec" text-anchor="end" dominant-baseline="central" font-weight="700">NAI (26th)</text>
+<path d="M260.0 243.0 H295.2 a4 4 0 0 1 4 4 V255.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#3987e5"/>
+<text x="305.2" y="251.0" fill="#f0efec" dominant-baseline="central" font-weight="700">0.090</text>
+<line x1="260" y1="2" x2="260" y2="266" stroke="#383835" stroke-width="1"/>
+</g></svg>

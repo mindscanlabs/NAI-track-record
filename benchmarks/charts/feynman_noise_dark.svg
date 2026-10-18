@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="398" viewBox="0 0 760 398" role="img" aria-labelledby="t d">
+<title id="t">SRBench 2021: Feynman equations recovered exactly, 1 % noise (%)</title>
+<desc id="d">NAI 48.3; gplearn 13.2; EPLEX 8.8; DSR 8.4; AFP 7.1; AFP_FE 6.1; ITEA 0.1; Operon 0.1; AI Feynman 0.0; BSR 0.0; FEAT 0.0; FFX 0.0; GP-GOMEA 0.0; MRGP 0.0; SBP-GP 0.0</desc>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">
+<text x="250" y="17.0" fill="#f0efec" text-anchor="end" dominant-baseline="central" font-weight="700">NAI</text>
+<path d="M260.0 9.0 H466.6 a4 4 0 0 1 4 4 V21.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#3987e5"/>
+<text x="476.6" y="17.0" fill="#f0efec" dominant-baseline="central" font-weight="700">48.3</text>
+<text x="250" y="43.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">gplearn</text>
+<path d="M260.0 35.0 H313.6 a4 4 0 0 1 4 4 V47.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="323.6" y="43.0" fill="#c3c2b7" dominant-baseline="central">13.2</text>
+<text x="250" y="69.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">EPLEX</text>
+<path d="M260.0 61.0 H294.4 a4 4 0 0 1 4 4 V73.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="304.4" y="69.0" fill="#c3c2b7" dominant-baseline="central">8.8</text>
+<text x="250" y="95.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">DSR</text>
+<path d="M260.0 87.0 H292.6 a4 4 0 0 1 4 4 V99.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="302.6" y="95.0" fill="#c3c2b7" dominant-baseline="central">8.4</text>
+<text x="250" y="121.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">AFP</text>
+<path d="M260.0 113.0 H287.0 a4 4 0 0 1 4 4 V125.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="297.0" y="121.0" fill="#c3c2b7" dominant-baseline="central">7.1</text>
+<text x="250" y="147.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">AFP_FE</text>
+<path d="M260.0 139.0 H282.6 a4 4 0 0 1 4 4 V151.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="292.6" y="147.0" fill="#c3c2b7" dominant-baseline="central">6.1</text>
+<text x="250" y="173.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">ITEA</text>
+<rect x="260.0" y="165.0" width="0.4" height="16" fill="#6f6d68"/>
+<text x="266.4" y="173.0" fill="#c3c2b7" dominant-baseline="central">0.1</text>
+<text x="250" y="199.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">Operon</text>
+<rect x="260.0" y="191.0" width="0.4" height="16" fill="#6f6d68"/>
+<text x="266.4" y="199.0" fill="#c3c2b7" dominant-baseline="central">0.1</text>
+<text x="250" y="225.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">AI Feynman</text>
+<text x="266.0" y="225.0" fill="#c3c2b7" dominant-baseline="central">0.0</text>
+<text x="250" y="251.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">BSR</text>
+<text x="266.0" y="251.0" fill="#c3c2b7" dominant-baseline="central">0.0</text>
+<text x="250" y="277.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">FEAT</text>
+<text x="266.0" y="277.0" fill="#c3c2b7" dominant-baseline="central">0.0</text>
+<text x="250" y="303.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">FFX</text>
+<text x="266.0" y="303.0" fill="#c3c2b7" dominant-baseline="central">0.0</text>
+<text x="250" y="329.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">GP-GOMEA</text>
+<text x="266.0" y="329.0" fill="#c3c2b7" dominant-baseline="central">0.0</text>
+<text x="250" y="355.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">MRGP</text>
+<text x="266.0" y="355.0" fill="#c3c2b7" dominant-baseline="central">0.0</text>
+<text x="250" y="381.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">SBP-GP</text>
+<text x="266.0" y="381.0" fill="#c3c2b7" dominant-baseline="central">0.0</text>
+<line x1="260" y1="2" x2="260" y2="396" stroke="#383835" stroke-width="1"/>
+</g></svg>

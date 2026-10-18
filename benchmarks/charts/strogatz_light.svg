@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="398" viewBox="0 0 760 398" role="img" aria-labelledby="t d">
+<title id="t">SRBench 2021: ODE-Strogatz systems recovered exactly (%)</title>
+<desc id="d">NAI 85.7; GP-GOMEA 29.5; AI Feynman 27.1; AFP_FE 20.0; DSR 19.6; AFP 15.2; SBP-GP 11.6; Operon 11.4; EPLEX 8.9; gplearn 8.9; ITEA 7.1; BSR 0.9; FEAT 0.9; FFX 0.0; MRGP 0.0</desc>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">
+<text x="250" y="17.0" fill="#0b0b0b" text-anchor="end" dominant-baseline="central" font-weight="700">NAI</text>
+<path d="M260.0 9.0 H629.7 a4 4 0 0 1 4 4 V21.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#2a78d6"/>
+<text x="639.7" y="17.0" fill="#0b0b0b" dominant-baseline="central" font-weight="700">85.7</text>
+<text x="250" y="43.0" fill="#52514e" text-anchor="end" dominant-baseline="central">GP-GOMEA</text>
+<path d="M260.0 35.0 H384.6 a4 4 0 0 1 4 4 V47.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#8f8d86"/>
+<text x="394.6" y="43.0" fill="#52514e" dominant-baseline="central">29.5</text>
+<text x="250" y="69.0" fill="#52514e" text-anchor="end" dominant-baseline="central">AI Feynman</text>
+<path d="M260.0 61.0 H374.2 a4 4 0 0 1 4 4 V73.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#8f8d86"/>
+<text x="384.2" y="69.0" fill="#52514e" dominant-baseline="central">27.1</text>
+<text x="250" y="95.0" fill="#52514e" text-anchor="end" dominant-baseline="central">AFP_FE</text>
+<path d="M260.0 87.0 H343.2 a4 4 0 0 1 4 4 V99.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#8f8d86"/>
+<text x="353.2" y="95.0" fill="#52514e" dominant-baseline="central">20.0</text>
+<text x="250" y="121.0" fill="#52514e" text-anchor="end" dominant-baseline="central">DSR</text>
+<path d="M260.0 113.0 H341.5 a4 4 0 0 1 4 4 V125.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#8f8d86"/>
+<text x="351.5" y="121.0" fill="#52514e" dominant-baseline="central">19.6</text>
+<text x="250" y="147.0" fill="#52514e" text-anchor="end" dominant-baseline="central">AFP</text>
+<path d="M260.0 139.0 H322.3 a4 4 0 0 1 4 4 V151.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#8f8d86"/>
+<text x="332.3" y="147.0" fill="#52514e" dominant-baseline="central">15.2</text>
+<text x="250" y="173.0" fill="#52514e" text-anchor="end" dominant-baseline="central">SBP-GP</text>
+<path d="M260.0 165.0 H306.6 a4 4 0 0 1 4 4 V177.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#8f8d86"/>
+<text x="316.6" y="173.0" fill="#52514e" dominant-baseline="central">11.6</text>
+<text x="250" y="199.0" fill="#52514e" text-anchor="end" dominant-baseline="central">Operon</text>
+<path d="M260.0 191.0 H305.7 a4 4 0 0 1 4 4 V203.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#8f8d86"/>
+<text x="315.7" y="199.0" fill="#52514e" dominant-baseline="central">11.4</text>
+<text x="250" y="225.0" fill="#52514e" text-anchor="end" dominant-baseline="central">EPLEX</text>
+<path d="M260.0 217.0 H294.8 a4 4 0 0 1 4 4 V229.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#8f8d86"/>
+<text x="304.8" y="225.0" fill="#52514e" dominant-baseline="central">8.9</text>
+<text x="250" y="251.0" fill="#52514e" text-anchor="end" dominant-baseline="central">gplearn</text>
+<path d="M260.0 243.0 H294.8 a4 4 0 0 1 4 4 V255.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#8f8d86"/>
+<text x="304.8" y="251.0" fill="#52514e" dominant-baseline="central">8.9</text>
+<text x="250" y="277.0" fill="#52514e" text-anchor="end" dominant-baseline="central">ITEA</text>
+<path d="M260.0 269.0 H287.0 a4 4 0 0 1 4 4 V281.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#8f8d86"/>
+<text x="297.0" y="277.0" fill="#52514e" dominant-baseline="central">7.1</text>
+<text x="250" y="303.0" fill="#52514e" text-anchor="end" dominant-baseline="central">BSR</text>
+<rect x="260.0" y="295.0" width="3.9" height="16" fill="#8f8d86"/>
+<text x="269.9" y="303.0" fill="#52514e" dominant-baseline="central">0.9</text>
+<text x="250" y="329.0" fill="#52514e" text-anchor="end" dominant-baseline="central">FEAT</text>
+<rect x="260.0" y="321.0" width="3.9" height="16" fill="#8f8d86"/>
+<text x="269.9" y="329.0" fill="#52514e" dominant-baseline="central">0.9</text>
+<text x="250" y="355.0" fill="#52514e" text-anchor="end" dominant-baseline="central">FFX</text>
+<text x="266.0" y="355.0" fill="#52514e" dominant-baseline="central">0.0</text>
+<text x="250" y="381.0" fill="#52514e" text-anchor="end" dominant-baseline="central">MRGP</text>
+<text x="266.0" y="381.0" fill="#52514e" dominant-baseline="central">0.0</text>
+<line x1="260" y1="2" x2="260" y2="396" stroke="#c3c2b7" stroke-width="1"/>
+</g></svg>

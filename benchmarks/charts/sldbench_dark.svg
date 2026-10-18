@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="320" viewBox="0 0 760 320" role="img" aria-labelledby="t d">
+<title id="t">SLDBench: mean R² over 8 scaling-law tasks</title>
+<desc id="d">NAI 0.775; SLDAgent (GPT-5) 0.748; Goose (GPT-5) 0.695; SLDAgent (o4-mini) 0.657; SLDAgent (Gemini 3 Pro) 0.636; SLDAgent (Claude Sonnet 4.5) 0.590; Gemini CLI (Gemini 3 Pro) 0.587; Codex (GPT-5) 0.550; SLDAgent (Claude Haiku 4.5) 0.519; Human-designed laws 0.517; OpenHands (GPT-5) 0.516; SLDAgent (Gemini 2.5 Flash) 0.506</desc>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">
+<text x="250" y="17.0" fill="#f0efec" text-anchor="end" dominant-baseline="central" font-weight="700">NAI</text>
+<path d="M260.0 9.0 H593.9 a4 4 0 0 1 4 4 V21.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#3987e5"/>
+<text x="603.9" y="17.0" fill="#f0efec" dominant-baseline="central" font-weight="700">0.775</text>
+<text x="250" y="43.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">SLDAgent (GPT-5)</text>
+<path d="M260.0 35.0 H582.1 a4 4 0 0 1 4 4 V47.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="592.1" y="43.0" fill="#c3c2b7" dominant-baseline="central">0.748</text>
+<text x="250" y="69.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">Goose (GPT-5)</text>
+<path d="M260.0 61.0 H559.0 a4 4 0 0 1 4 4 V73.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="569.0" y="69.0" fill="#c3c2b7" dominant-baseline="central">0.695</text>
+<text x="250" y="95.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">SLDAgent (o4-mini)</text>
+<path d="M260.0 87.0 H542.5 a4 4 0 0 1 4 4 V99.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="552.5" y="95.0" fill="#c3c2b7" dominant-baseline="central">0.657</text>
+<text x="250" y="121.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">SLDAgent (Gemini 3 Pro)</text>
+<path d="M260.0 113.0 H533.3 a4 4 0 0 1 4 4 V125.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="543.3" y="121.0" fill="#c3c2b7" dominant-baseline="central">0.636</text>
+<text x="250" y="147.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">SLDAgent (Claude Sonnet 4.5)</text>
+<path d="M260.0 139.0 H513.2 a4 4 0 0 1 4 4 V151.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="523.2" y="147.0" fill="#c3c2b7" dominant-baseline="central">0.590</text>
+<text x="250" y="173.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">Gemini CLI (Gemini 3 Pro)</text>
+<path d="M260.0 165.0 H511.9 a4 4 0 0 1 4 4 V177.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="521.9" y="173.0" fill="#c3c2b7" dominant-baseline="central">0.587</text>
+<text x="250" y="199.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">Codex (GPT-5)</text>
+<path d="M260.0 191.0 H495.8 a4 4 0 0 1 4 4 V203.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="505.8" y="199.0" fill="#c3c2b7" dominant-baseline="central">0.550</text>
+<text x="250" y="225.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">SLDAgent (Claude Haiku 4.5)</text>
+<path d="M260.0 217.0 H482.3 a4 4 0 0 1 4 4 V229.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="492.3" y="225.0" fill="#c3c2b7" dominant-baseline="central">0.519</text>
+<text x="250" y="251.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">Human-designed laws</text>
+<path d="M260.0 243.0 H481.4 a4 4 0 0 1 4 4 V255.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="491.4" y="251.0" fill="#c3c2b7" dominant-baseline="central">0.517</text>
+<text x="250" y="277.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">OpenHands (GPT-5)</text>
+<path d="M260.0 269.0 H481.0 a4 4 0 0 1 4 4 V281.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="491.0" y="277.0" fill="#c3c2b7" dominant-baseline="central">0.516</text>
+<text x="250" y="303.0" fill="#c3c2b7" text-anchor="end" dominant-baseline="central">SLDAgent (Gemini 2.5 Flash)</text>
+<path d="M260.0 295.0 H476.6 a4 4 0 0 1 4 4 V307.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#6f6d68"/>
+<text x="486.6" y="303.0" fill="#c3c2b7" dominant-baseline="central">0.506</text>
+<line x1="260" y1="2" x2="260" y2="318" stroke="#383835" stroke-width="1"/>
+</g></svg>

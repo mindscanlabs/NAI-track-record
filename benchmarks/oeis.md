@@ -13,7 +13,7 @@ NAI was given the first terms of combinatorial sequences from the On-Line Encycl
 
 ## Sets
 
-The sets come from text searches on combinatorial enumeration. Three of the four pairs were set aside before development or registered before their first run.
+The sets come from text searches on combinatorial enumeration. Three of the four pairs were set aside before development or registered before their first run; by the time this build was frozen all of them had been seen (see the caveats for the first runs).
 
 | set | sequences | found | wrong | unseen terms agreeing |
 |---|---|---|---|---|
@@ -38,7 +38,7 @@ Each was checked against the full OEIS entry, including programs and linked file
 | conjectures, not submitted | A057647, A060898, A245002, A321839, A347947 |
 | already known in some form | A027439, A157253, A212915, A212916, A233290, A263316, A264765, A264812, A277359, A284230 |
 
-Ten of the 29 were already known, mostly in programs inside the entries that the selection did not read. The proofs and the closed forms derived from NAI's recurrences were done afterwards, by me with the AI assistant Claude, and are not NAI's output. NAI's recurrences for three entries of one family led to the preprint [hardin-sumsets](../hardin-sumsets/).
+Ten of the 29 were already known in some form: four in programs inside the entries, three elsewhere in the entries' text, which the selection did not recognize, and for three tilings a rational generating function was known to exist, though not written out. The proofs and the closed forms derived from NAI's recurrences were done afterwards, by me with the AI assistant Claude, and are not NAI's output. NAI's recurrences for three entries of one family led to the preprint [hardin-sumsets](../hardin-sumsets/).
 
 ## Comparison with other systems
 
@@ -47,6 +47,6 @@ There is no shared benchmark for this task, so there is no ranking. Dedicated gu
 ## Conditions and caveats
 
 - **Budget.** About two minutes per sequence on a laptop processor.
-- **Seen sets.** All eight sets had been seen by the time this build was frozen; the first runs of the held-out sets, made with earlier builds, found 21 of 21, 27 of 31 and 33 to 37 of 37 sequences with a formula, and 3, 4 and 3 to 5 without, with one wrong closed form in the third set that the current build no longer returns.
+- **Seen sets.** All eight sets had been seen by the time this build was frozen. The first runs of the held-out sets, made with earlier builds, are the independent evidence: the blind sets 21 of 21 with a formula and 3 of 148 without; the second blind sets 27 of 31 and 4 of 92; the third blind sets, run with three earlier builds, 33, 34 and 37 of 37 and 3, 4 and 5 of 32. One closed form in the third set was wrong in all three earlier builds (A102518); the current build no longer returns it.
 - **Selection.** Combinatorial sequences only; number theory was excluded.
 - **Conjectures** are verified on every available term, not proved.

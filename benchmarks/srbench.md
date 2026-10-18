@@ -18,7 +18,7 @@ A solution is a formula that differs from the true one by a constant term or fac
 | method | Feynman, no noise (116) | Feynman, 1 % noise | ODE-Strogatz (14) |
 |---|---|---|---|
 | **NAI** | **60.3** (strict check 56.9) | **48.3** (strict check 45.7) | **85.7** |
-| AI Feynman | 55.8 | 0.0 | 27.1 |
+| AI Feynman | 55.8 * | 0.0 | 27.1 |
 | AFP_FE | 27.0 | 6.1 | 20.0 |
 | GP-GOMEA | 26.8 | 0.0 | 29.5 |
 | ITEA | 22.4 | 0.1 | 7.1 |
@@ -26,13 +26,15 @@ A solution is a formula that differs from the true one by a constant term or fac
 | DSR | 19.7 | 8.4 | 19.6 |
 | gplearn | 16.3 | 13.2 | 8.9 |
 
+\* over 114 of the 116 equations.
+
 "Strict check": sympy with plain symbols. The main numbers declare the variables positive, as every Feynman variable is; four correct solutions without noise (three with noise) are identities that only hold for positive values, such as sqrt(a)/sqrt(b) = sqrt(a/b). NAI is first under both checks.
 
 On accuracy (R² > 0.999 on the test set, Feynman without noise) NAI reaches 71.6 %, level with GP-GOMEA and behind MRGP (93.1 %), Operon (86.2 %), AI Feynman (78.5 %) and SBP-GP (73.7 %).
 
 ## Real measurements, SRBench 2025
 
-Thirteen datasets of real measurements of known laws (Hubble, Kepler, Planck, Rydberg, Newton and others). Per method, the median over its runs on each dataset, then over the datasets.
+Thirteen datasets of real measurements of known laws (Hubble, Kepler, Planck, Rydberg, Newton and others). Per method, the median over its runs on each dataset, then over the datasets. By median R² NAI is first; by mean R² it is fourth.
 
 | method | median R² | mean R² (below -1 counted as -1) |
 |---|---|---|
@@ -54,13 +56,15 @@ Fifteen nonlinear regression datasets of real measurements from the NIST Statist
 | | NAI | certified model |
 |---|---|---|
 | median R² | 0.9887 | 0.9937 |
+| mean R² | 0.738 | 0.859 |
 | datasets without a numeric prediction | 0 | 0 |
 
-NAI is within 0.01 of the certified model or better on 11 of 15 datasets.
+NAI is within 0.01 of the certified model or better on 12 of the 15 datasets, and far better on Nelson (0.906 against 0.117). It is clearly worse on three: Rat42 (0.938 against 0.994), ENSO (-0.67 against 0.39, a series with three periods) and BoxBOD (-21.9 against 0.50, 6 rows), which pull its mean down.
 
 ## Conditions and caveats
 
-- **Budget.** NAI: one run, 120 seconds, 400 training rows (Feynman), on a laptop processor. Other methods: up to 8 hours, 10,000 rows and 10 runs (2021); one hour, tuning and 30 runs (2025).
+- **Budget.** NAI: one run, 120 seconds, 400 training rows (Feynman), on a laptop processor. Other methods: up to 8 hours, 10,000 rows and 10 runs (2021); one hour, tuning and 30 runs (2025). NAI's variance over runs is therefore not measured.
+- **Not the same rows.** The Feynman data were regenerated from PMLB's metadata, as SRBench generated them, and the 2025 comparison uses NAI's own 75 / 25 split; on small datasets R² depends on the split.
 - **Not blind.** These suites are public, and some development decisions were made with their logs in view. The NIST check is the blind one.
 - **The 2021 table is old.** The 2025 update published no exact-recovery table for current methods.
 - **Readability.** On real measurements NAI's answers are accurate approximations, not always the textbook law.

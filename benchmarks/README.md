@@ -23,4 +23,4 @@ Checks registered before the run, on data I had not used:
 
 Each report states the conditions and what was seen during development.
 
-**Reproduction.** NAI's outputs (the chosen formulas and the logs of the runs) are not published. A compiled build of NAI that reproduces these results on the benchmarks' data, and runs on any other data, is available on request: lab@mindscan.org.
+**Reproduction.** The 40 SLDBench solutions (5 runs of 8 tasks, each a self-contained program scored by SLDBench's own evaluator) are submitted to the benchmark's public results dataset: [pull request](https://huggingface.co/datasets/pkuHaowei/scaling_law_discovery_results/discussions/2). NAI's other outputs (chosen formulas and logs of the other runs) are not published; a compiled build of NAI that reproduces these results on the benchmarks' data, and runs on any other data, is available on request: lab@mindscan.org.

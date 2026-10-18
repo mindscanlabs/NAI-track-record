@@ -23,7 +23,7 @@ CHARTS = [
         ("NAI", 0.775), ("SLDAgent (GPT-5)", 0.748), ("Goose (GPT-5)", 0.695), ("SLDAgent (o4-mini)", 0.657),
         ("SLDAgent (Gemini 3 Pro)", 0.636), ("SLDAgent (Claude Sonnet 4.5)", 0.590), ("Gemini CLI (Gemini 3 Pro)", 0.587),
         ("Codex (GPT-5)", 0.550), ("SLDAgent (Claude Haiku 4.5)", 0.519), ("Human-designed laws", 0.517),
-        ("OpenHands (GPT-5)", 0.516), ("SLDAgent (Gemini 2.5 Flash)", 0.506)]),
+        ("OpenHands (GPT-5)", 0.516), ("SLDAgent (Gemini 2.5 Flash)", 0.506), ("OpenCode (GPT-5)", 0.501)]),
     ("feynman", "SRBench 2021: Feynman equations recovered exactly, no noise (%)", "{:.1f}", 100.0, [
         ("NAI", 60.3), ("AI Feynman", 55.8), ("AFP_FE", 27.0), ("GP-GOMEA", 26.8), ("ITEA", 22.4), ("AFP", 21.1),
         ("DSR", 19.7), ("Operon", 16.6), ("gplearn", 16.3), ("SBP-GP", 12.7), ("EPLEX", 12.4), ("BSR", 2.5),

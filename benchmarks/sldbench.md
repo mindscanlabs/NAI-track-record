@@ -12,6 +12,13 @@ SLDBench (Lin et al., ICLR 2026) asks a system to discover a scaling law from tr
 
 ## Ranking
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="charts/sldbench_dark.svg">
+  <img src="charts/sldbench_light.svg" alt="SLDBench mean R²: NAI 0.775, SLDAgent (GPT-5) 0.748, Goose (GPT-5) 0.695, and others">
+</picture>
+
+The chart includes every system in the benchmark's published results data with a mean above 0.5 (five runs each; Gemini CLI and OpenHands three to four; the human-designed laws are one law per task); the table lists those reported in the SLDBench paper.
+
 | rank | system | mean R² over 8 tasks |
 |---|---|---|
 | **1** | **NAI** | **0.775 ± 0.024** |

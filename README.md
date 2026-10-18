@@ -26,7 +26,7 @@ SLDBench). Conditions, caveats and what was seen during development:
 
 Mean R² over the 8 tasks. NAI: 0.775 ± 0.024 over five runs. Other systems: the
 benchmark's published results data (five runs each; Gemini CLI and OpenHands three to
-four). The test was seen during NAI's development; see the [report](benchmarks/sldbench.md).
+four; the human-designed laws are one law per task). The test was seen during NAI's development; see the [report](benchmarks/sldbench.md).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="benchmarks/charts/sldbench_dark.svg">

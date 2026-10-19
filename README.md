@@ -12,7 +12,7 @@
 </p>
 
 <p align="center"><sub>Places against the results each benchmark publishes for other systems: my own runs, not
-entries of an official leaderboard. Conditions and caveats: <a href="benchmarks/">benchmarks</a>.</sub></p>
+entries of an official leaderboard.<br>Conditions and caveats: <a href="benchmarks/">benchmarks</a>.</sub></p>
 
 # NAI-track-record
 

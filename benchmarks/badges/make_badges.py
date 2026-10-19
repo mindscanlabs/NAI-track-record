@@ -36,22 +36,22 @@ def wreath():
     for side in (1, -1):
         pt = lambda t: (CX + side * R * math.sin(math.radians(t)), CY + R * math.cos(math.radians(t)))
         # the stem, from near the bottom to near the top
-        (x0, y0), (x1, y1) = pt(8), pt(142)
+        (x0, y0), (x1, y1) = pt(8), pt(136)
         out.append('<path class="stem" d="M%.2f %.2f A%d %d 0 0 %d %.2f %.2f"/>' % (x0, y0, R, R, 0 if side > 0 else 1, x1, y1))
         # Leaves grow the way the branch grows, up from the bottom: each one's base
         # on the stem, its tip forward along the stem and turned outwards; the
         # last one ends the branch. Smaller towards the top.
-        for k in range(7):
-            t = 22 + k * 20
+        for k in range(9):
+            t = 18 + k * 15
             x, y = pt(t)
             r = math.radians(t)
             fwd = (side * math.cos(r), -math.sin(r))          # along the stem, the way it grows
             out_ = (side * math.sin(r), math.cos(r))          # away from the centre
-            turn = math.radians(10 if k == 6 else 38)
+            turn = math.radians(10 if k == 8 else 36)
             ax = (math.cos(turn) * fwd[0] + math.sin(turn) * out_[0], math.cos(turn) * fwd[1] + math.sin(turn) * out_[1])
             deg = math.degrees(math.atan2(ax[1], ax[0]))
-            size = 1.0 - 0.06 * k
-            L, w = 8.5 * size, 2.7 * size
+            size = 1.0 - 0.045 * k
+            L, w = 9.0 * size, 3.6 * size
             out.append('<path class="leaf" transform="translate(%.2f %.2f) rotate(%.1f)" d="M0 0 Q%.2f %.2f %.2f 0 Q%.2f %.2f 0 0Z"/>'
                        % (x, y, deg, L / 2, -w, L, L / 2, w))
     return "\n".join(out)

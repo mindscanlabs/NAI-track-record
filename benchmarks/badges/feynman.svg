@@ -9,22 +9,26 @@
   }
 </style>
 <rect class="bg" x="0.5" y="0.5" width="257" height="53" rx="8"/>
-<path class="stem" d="M32.37 43.83 A17 17 0 0 0 40.47 13.60"/>
-<path class="leaf" transform="translate(36.37 42.76) rotate(16.0)" d="M0 0 Q4.25 -2.70 8.50 0 Q4.25 2.70 0 0Z"/>
-<path class="leaf" transform="translate(41.38 39.63) rotate(-4.0)" d="M0 0 Q3.99 -2.54 7.99 0 Q3.99 2.54 0 0Z"/>
-<path class="leaf" transform="translate(45.01 34.98) rotate(-24.0)" d="M0 0 Q3.74 -2.38 7.48 0 Q3.74 2.38 0 0Z"/>
-<path class="leaf" transform="translate(46.83 29.37) rotate(-44.0)" d="M0 0 Q3.49 -2.21 6.97 0 Q3.49 2.21 0 0Z"/>
-<path class="leaf" transform="translate(46.63 23.47) rotate(-64.0)" d="M0 0 Q3.23 -2.05 6.46 0 Q3.23 2.05 0 0Z"/>
-<path class="leaf" transform="translate(44.42 17.99) rotate(-84.0)" d="M0 0 Q2.97 -1.89 5.95 0 Q2.97 1.89 0 0Z"/>
-<path class="leaf" transform="translate(40.47 13.60) rotate(-132.0)" d="M0 0 Q2.72 -1.73 5.44 0 Q2.72 1.73 0 0Z"/>
-<path class="stem" d="M27.63 43.83 A17 17 0 0 1 19.53 13.60"/>
-<path class="leaf" transform="translate(23.63 42.76) rotate(164.0)" d="M0 0 Q4.25 -2.70 8.50 0 Q4.25 2.70 0 0Z"/>
-<path class="leaf" transform="translate(18.62 39.63) rotate(-176.0)" d="M0 0 Q3.99 -2.54 7.99 0 Q3.99 2.54 0 0Z"/>
-<path class="leaf" transform="translate(14.99 34.98) rotate(-156.0)" d="M0 0 Q3.74 -2.38 7.48 0 Q3.74 2.38 0 0Z"/>
-<path class="leaf" transform="translate(13.17 29.37) rotate(-136.0)" d="M0 0 Q3.49 -2.21 6.97 0 Q3.49 2.21 0 0Z"/>
-<path class="leaf" transform="translate(13.37 23.47) rotate(-116.0)" d="M0 0 Q3.23 -2.05 6.46 0 Q3.23 2.05 0 0Z"/>
-<path class="leaf" transform="translate(15.58 17.99) rotate(-96.0)" d="M0 0 Q2.97 -1.89 5.95 0 Q2.97 1.89 0 0Z"/>
-<path class="leaf" transform="translate(19.53 13.60) rotate(-48.0)" d="M0 0 Q2.72 -1.73 5.44 0 Q2.72 1.73 0 0Z"/>
+<path class="stem" d="M32.37 43.83 A17 17 0 0 0 41.81 14.77"/>
+<path class="leaf" transform="translate(35.25 43.17) rotate(18.0)" d="M0 0 Q4.50 -3.60 9.00 0 Q4.50 3.60 0 0Z"/>
+<path class="leaf" transform="translate(39.26 41.26) rotate(3.0)" d="M0 0 Q4.30 -3.44 8.59 0 Q4.30 3.44 0 0Z"/>
+<path class="leaf" transform="translate(42.63 38.38) rotate(-12.0)" d="M0 0 Q4.09 -3.28 8.19 0 Q4.09 3.28 0 0Z"/>
+<path class="leaf" transform="translate(45.15 34.72) rotate(-27.0)" d="M0 0 Q3.89 -3.11 7.79 0 Q3.89 3.11 0 0Z"/>
+<path class="leaf" transform="translate(46.63 30.53) rotate(-42.0)" d="M0 0 Q3.69 -2.95 7.38 0 Q3.69 2.95 0 0Z"/>
+<path class="leaf" transform="translate(46.98 26.11) rotate(-57.0)" d="M0 0 Q3.49 -2.79 6.98 0 Q3.49 2.79 0 0Z"/>
+<path class="leaf" transform="translate(46.17 21.75) rotate(-72.0)" d="M0 0 Q3.29 -2.63 6.57 0 Q3.29 2.63 0 0Z"/>
+<path class="leaf" transform="translate(44.26 17.74) rotate(-87.0)" d="M0 0 Q3.08 -2.47 6.17 0 Q3.08 2.47 0 0Z"/>
+<path class="leaf" transform="translate(41.38 14.37) rotate(-128.0)" d="M0 0 Q2.88 -2.30 5.76 0 Q2.88 2.30 0 0Z"/>
+<path class="stem" d="M27.63 43.83 A17 17 0 0 1 18.19 14.77"/>
+<path class="leaf" transform="translate(24.75 43.17) rotate(162.0)" d="M0 0 Q4.50 -3.60 9.00 0 Q4.50 3.60 0 0Z"/>
+<path class="leaf" transform="translate(20.74 41.26) rotate(177.0)" d="M0 0 Q4.30 -3.44 8.59 0 Q4.30 3.44 0 0Z"/>
+<path class="leaf" transform="translate(17.37 38.38) rotate(-168.0)" d="M0 0 Q4.09 -3.28 8.19 0 Q4.09 3.28 0 0Z"/>
+<path class="leaf" transform="translate(14.85 34.72) rotate(-153.0)" d="M0 0 Q3.89 -3.11 7.79 0 Q3.89 3.11 0 0Z"/>
+<path class="leaf" transform="translate(13.37 30.53) rotate(-138.0)" d="M0 0 Q3.69 -2.95 7.38 0 Q3.69 2.95 0 0Z"/>
+<path class="leaf" transform="translate(13.02 26.11) rotate(-123.0)" d="M0 0 Q3.49 -2.79 6.98 0 Q3.49 2.79 0 0Z"/>
+<path class="leaf" transform="translate(13.83 21.75) rotate(-108.0)" d="M0 0 Q3.29 -2.63 6.57 0 Q3.29 2.63 0 0Z"/>
+<path class="leaf" transform="translate(15.74 17.74) rotate(-93.0)" d="M0 0 Q3.08 -2.47 6.17 0 Q3.08 2.47 0 0Z"/>
+<path class="leaf" transform="translate(18.62 14.37) rotate(-52.0)" d="M0 0 Q2.88 -2.30 5.76 0 Q2.88 2.30 0 0Z"/>
 <text class="place" x="30" y="32" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700">#1</text>
 <text class="cap" x="66" y="22" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" letter-spacing="0.6">SRBENCH 2021 · FEYNMAN</text>
 <text class="res" x="66" y="40" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700">60.3 % recovered exactly</text>

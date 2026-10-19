@@ -5,6 +5,7 @@
 <p align="center">
   <a href="benchmarks/sldbench.md"><img src="benchmarks/badges/sldbench.svg" alt="1st place on SLDBench (scaling laws): mean R² 0.775"></a>
   <a href="benchmarks/srbench.md"><img src="benchmarks/badges/first_principles.svg" alt="1st place of 28 on SRBench 2025 real data: median R² 0.9925"></a>
+  <a href="benchmarks/llmsrbench.md"><img src="benchmarks/badges/llmsrbench.svg" alt="1st place on LLM-SRBench in chemistry, biology and physics"></a>
   <br>
   <a href="benchmarks/srbench.md"><img src="benchmarks/badges/feynman.svg" alt="1st place on SRBench 2021 Feynman: 60.3 % recovered exactly"></a>
   <a href="benchmarks/srbench.md"><img src="benchmarks/badges/feynman_noise.svg" alt="1st place on SRBench 2021 Feynman with 1 % noise: 48.3 % recovered exactly"></a>
@@ -95,6 +96,26 @@ R², NAI is fourth.
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="benchmarks/charts/first_principles_dark.svg">
   <img src="benchmarks/charts/first_principles_light.svg" alt="SRBench 2025 first-principles median R²: NAI 0.9925, QLattice 0.9867, PySR 0.9135, and others">
+</picture>
+
+### LLM-SRBench: new equations, unseen before the run
+
+Accuracy (Acc0.1: within 10 % of the true value on every test point) on the benchmark built for
+LLM-based equation discovery, against the twelve LLM-based systems of its paper. NAI: one run
+per problem, registered in advance, no language model. First in three of the five sets, fourth
+in the other two; recovering the exact law is its weak side here: [report](benchmarks/llmsrbench.md).
+
+| set | NAI | best other system | place of 13 |
+|---|---|---|---|
+| LSR-Synth: chemistry | **80.56 %** | 66.66 % | **1st** |
+| LSR-Synth: biology | **75.00 %** | 58.33 % | **1st** |
+| LSR-Synth: physics | **43.18 %** | 36.36 % | **1st** |
+| LSR-Synth: materials science | 80.00 % | 88.28 % | 4th |
+| LSR-Transform | 45.05 % | 50.45 % | 4th |
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="benchmarks/charts/llmsr_chem_dark.svg">
+  <img src="benchmarks/charts/llmsr_chem_light.svg" alt="LLM-SRBench chemistry Acc0.1: NAI 80.56 %, LLM-SR (Llama-3.1-8B) 66.66 %, LLM-SR (GPT-4o-mini) 52.77 %, and others">
 </picture>
 
 ### SRBench 2025: black-box regression

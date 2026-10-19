@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="346" viewBox="0 0 760 346" role="img" aria-labelledby="t d">
+<title id="t">LLM-SRBench: LSR-Synth chemistry, Acc0.1 (%)</title>
+<desc id="d">NAI 80.56; LLM-SR (Llama-3.1-8B) 66.66; LLM-SR (GPT-4o-mini) 52.77; LLM-SR (GPT-3.5-turbo) 50.22; LaSR (GPT-4o-mini) 38.92; LaSR (GPT-3.5-turbo) 38.89; LaSR (Llama-3.1-8B) 27.77; SGA (GPT-4o-mini) 16.66; Direct prompting (GPT-4o-mini) 13.88; SGA (Llama-3.1-8B) 8.33; SGA (GPT-3.5-turbo) 8.33; Direct prompting (GPT-3.5-turbo) 8.33; Direct prompting (Llama-3.1-8B) 0.00</desc>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">
+<text x="250" y="17.0" fill="#0b0b0b" text-anchor="end" dominant-baseline="central" font-weight="700">NAI</text>
+<path d="M260.0 9.0 H607.2 a4 4 0 0 1 4 4 V21.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#2a78d6"/>
+<text x="617.2" y="17.0" fill="#0b0b0b" dominant-baseline="central" font-weight="700">80.56</text>
+<text x="250" y="43.0" fill="#52514e" text-anchor="end" dominant-baseline="central">LLM-SR (Llama-3.1-8B)</text>
+<path d="M260.0 35.0 H546.6 a4 4 0 0 1 4 4 V47.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#8f8d86"/>
+<text x="556.6" y="43.0" fill="#52514e" dominant-baseline="central">66.66</text>
+<text x="250" y="69.0" fill="#52514e" text-anchor="end" dominant-baseline="central">LLM-SR (GPT-4o-mini)</text>
+<path d="M260.0 61.0 H486.1 a4 4 0 0 1 4 4 V73.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#8f8d86"/>
+<text x="496.1" y="69.0" fill="#52514e" dominant-baseline="central">52.77</text>
+<text x="250" y="95.0" fill="#52514e" text-anchor="end" dominant-baseline="central">LLM-SR (GPT-3.5-turbo)</text>
+<path d="M260.0 87.0 H475.0 a4 4 0 0 1 4 4 V99.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#8f8d86"/>
+<text x="485.0" y="95.0" fill="#52514e" dominant-baseline="central">50.22</text>
+<text x="250" y="121.0" fill="#52514e" text-anchor="end" dominant-baseline="central">LaSR (GPT-4o-mini)</text>
+<path d="M260.0 113.0 H425.7 a4 4 0 0 1 4 4 V125.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#8f8d86"/>
+<text x="435.7" y="121.0" fill="#52514e" dominant-baseline="central">38.92</text>
+<text x="250" y="147.0" fill="#52514e" text-anchor="end" dominant-baseline="central">LaSR (GPT-3.5-turbo)</text>
+<path d="M260.0 139.0 H425.6 a4 4 0 0 1 4 4 V151.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#8f8d86"/>
+<text x="435.6" y="147.0" fill="#52514e" dominant-baseline="central">38.89</text>
+<text x="250" y="173.0" fill="#52514e" text-anchor="end" dominant-baseline="central">LaSR (Llama-3.1-8B)</text>
+<path d="M260.0 165.0 H377.1 a4 4 0 0 1 4 4 V177.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#8f8d86"/>
+<text x="387.1" y="173.0" fill="#52514e" dominant-baseline="central">27.77</text>
+<text x="250" y="199.0" fill="#52514e" text-anchor="end" dominant-baseline="central">SGA (GPT-4o-mini)</text>
+<path d="M260.0 191.0 H328.6 a4 4 0 0 1 4 4 V203.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#8f8d86"/>
+<text x="338.6" y="199.0" fill="#52514e" dominant-baseline="central">16.66</text>
+<text x="250" y="225.0" fill="#52514e" text-anchor="end" dominant-baseline="central">Direct prompting (GPT-4o-mini)</text>
+<path d="M260.0 217.0 H316.5 a4 4 0 0 1 4 4 V229.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#8f8d86"/>
+<text x="326.5" y="225.0" fill="#52514e" dominant-baseline="central">13.88</text>
+<text x="250" y="251.0" fill="#52514e" text-anchor="end" dominant-baseline="central">SGA (Llama-3.1-8B)</text>
+<path d="M260.0 243.0 H292.3 a4 4 0 0 1 4 4 V255.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#8f8d86"/>
+<text x="302.3" y="251.0" fill="#52514e" dominant-baseline="central">8.33</text>
+<text x="250" y="277.0" fill="#52514e" text-anchor="end" dominant-baseline="central">SGA (GPT-3.5-turbo)</text>
+<path d="M260.0 269.0 H292.3 a4 4 0 0 1 4 4 V281.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#8f8d86"/>
+<text x="302.3" y="277.0" fill="#52514e" dominant-baseline="central">8.33</text>
+<text x="250" y="303.0" fill="#52514e" text-anchor="end" dominant-baseline="central">Direct prompting (GPT-3.5-turbo)</text>
+<path d="M260.0 295.0 H292.3 a4 4 0 0 1 4 4 V307.0 a4 4 0 0 1 -4 4 H260.0 Z" fill="#8f8d86"/>
+<text x="302.3" y="303.0" fill="#52514e" dominant-baseline="central">8.33</text>
+<text x="250" y="329.0" fill="#52514e" text-anchor="end" dominant-baseline="central">Direct prompting (Llama-3.1-8B)</text>
+<text x="266.0" y="329.0" fill="#52514e" dominant-baseline="central">0.00</text>
+<line x1="260" y1="2" x2="260" y2="344" stroke="#c3c2b7" stroke-width="1"/>
+</g></svg>

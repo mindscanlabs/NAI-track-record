@@ -18,6 +18,7 @@ BADGES = [
     ("feynman_noise", "1", "SRBench 2021 · Feynman, 1 % noise", "48.3 % recovered exactly"),
     ("strogatz", "1", "SRBench 2021 · ODE-Strogatz", "85.7 % recovered exactly"),
     ("first_principles", "1", "SRBench 2025 · real data", "Median R² 0.9925, of 28"),
+    ("llmsrbench", "1", "LLM-SRBench · new equations", "Chemistry, biology, physics"),
 ]
 
 H = 54

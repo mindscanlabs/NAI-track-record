@@ -2,6 +2,18 @@
   <img src="nai_logo.png" alt="NAI logo" width="320">
 </p>
 
+<p align="center">
+  <a href="benchmarks/sldbench.md"><img src="benchmarks/badges/sldbench.svg" alt="#1 on SLDBench (scaling laws): mean R² 0.775"></a>
+  <a href="benchmarks/srbench.md"><img src="benchmarks/badges/first_principles.svg" alt="#1 of 28 on SRBench 2025 real data: median R² 0.9925"></a>
+  <br>
+  <a href="benchmarks/srbench.md"><img src="benchmarks/badges/feynman.svg" alt="#1 on SRBench 2021 Feynman: 60.3 % recovered exactly"></a>
+  <a href="benchmarks/srbench.md"><img src="benchmarks/badges/feynman_noise.svg" alt="#1 on SRBench 2021 Feynman with 1 % noise: 48.3 % recovered exactly"></a>
+  <a href="benchmarks/srbench.md"><img src="benchmarks/badges/strogatz.svg" alt="#1 on SRBench 2021 ODE-Strogatz: 85.7 % recovered exactly"></a>
+</p>
+
+<p align="center"><sub>Places against the results each benchmark publishes for other systems: my own runs, not
+entries of an official leaderboard. Conditions and caveats: <a href="benchmarks/">benchmarks</a>.</sub></p>
+
 # NAI-track-record
 
 The track record of the NAI (No-Ansatz Inference) system: results that began with

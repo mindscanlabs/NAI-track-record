@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="258" height="54" viewBox="0 0 258 54" role="img" aria-label="#1 SRBench 2021 · Feynman: 60.3 % recovered exactly">
+<title>#1, SRBench 2021 · Feynman: 60.3 % recovered exactly</title>
+<style>
+  .bg { fill: #ffffff; stroke: #d0d7de; } .leaf { fill: #2a78d6; } .stem { fill: none; stroke: #2a78d6; stroke-width: 1; }
+  .place { fill: #0b0b0b; } .cap { fill: #2a78d6; } .res { fill: #0b0b0b; }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #161b22; stroke: #30363d; } .leaf { fill: #3987e5; } .stem { stroke: #3987e5; }
+    .place { fill: #f0efec; } .cap { fill: #3987e5; } .res { fill: #f0efec; }
+  }
+</style>
+<rect class="bg" x="0.5" y="0.5" width="257" height="53" rx="8"/>
+<path class="stem" d="M33.53 43.63 A17 17 0 0 0 39.01 12.58"/>
+<ellipse class="leaf" cx="39.01" cy="43.95" rx="4.80" ry="2.00" transform="rotate(-58.0 39.01 43.95)"/>
+<ellipse class="leaf" cx="44.71" cy="39.34" rx="4.46" ry="1.86" transform="rotate(-80.0 44.71 39.34)"/>
+<ellipse class="leaf" cx="48.26" cy="32.93" rx="4.13" ry="1.72" transform="rotate(-102.0 48.26 32.93)"/>
+<ellipse class="leaf" cx="49.15" cy="25.66" rx="3.79" ry="1.58" transform="rotate(-124.0 49.15 25.66)"/>
+<ellipse class="leaf" cx="47.26" cy="18.58" rx="3.46" ry="1.44" transform="rotate(-146.0 47.26 18.58)"/>
+<ellipse class="leaf" cx="42.85" cy="12.73" rx="3.12" ry="1.30" transform="rotate(-168.0 42.85 12.73)"/>
+<path class="stem" d="M26.47 43.63 A17 17 0 0 1 20.99 12.58"/>
+<ellipse class="leaf" cx="20.99" cy="43.95" rx="4.80" ry="2.00" transform="rotate(58.0 20.99 43.95)"/>
+<ellipse class="leaf" cx="15.29" cy="39.34" rx="4.46" ry="1.86" transform="rotate(80.0 15.29 39.34)"/>
+<ellipse class="leaf" cx="11.74" cy="32.93" rx="4.13" ry="1.72" transform="rotate(102.0 11.74 32.93)"/>
+<ellipse class="leaf" cx="10.85" cy="25.66" rx="3.79" ry="1.58" transform="rotate(124.0 10.85 25.66)"/>
+<ellipse class="leaf" cx="12.74" cy="18.58" rx="3.46" ry="1.44" transform="rotate(146.0 12.74 18.58)"/>
+<ellipse class="leaf" cx="17.15" cy="12.73" rx="3.12" ry="1.30" transform="rotate(168.0 17.15 12.73)"/>
+<text class="place" x="30" y="32" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700">#1</text>
+<text class="cap" x="66" y="22" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" letter-spacing="0.6">SRBENCH 2021 · FEYNMAN</text>
+<text class="res" x="66" y="40" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700">60.3 % recovered exactly</text>
+</svg>

@@ -27,6 +27,17 @@ fixing their form in advance. NAI does not use language models. Its source code
 and method are not part of this repository; each document says exactly which of its
 results came from NAI and which were obtained afterwards, and by whom.
 
+## Documents
+
+| date | document | folder | status |
+|---|---|---|---|
+| October 2026 | Hardin's Arrangements in Which Every Number Is a Sum of Others: Formulas and Sumsets | [hardin-sumsets](hardin-sumsets/) | preprint; submitted to the Journal of Integer Sequences |
+| October 2026 | OEIS findings that began with NAI (history and status of the edits) | [oeis-findings](oeis-findings/) | updated as the OEIS reviews the edits |
+| October 2026 | NAI on public benchmarks: SRBench, SLDBench, OEIS, compared with other systems | [benchmarks](benchmarks/) | short reports |
+
+Each paper folder holds the document (PDF and LaTeX source) and a `supplement`
+with the programs and data needed to check it.
+
 ## Benchmarks at a glance
 
 NAI against the other systems reported with each benchmark; first place on top.
@@ -96,17 +107,6 @@ is not competitive here.
   <source media="(prefers-color-scheme: dark)" srcset="benchmarks/charts/black_box_dark.svg">
   <img src="benchmarks/charts/black_box_light.svg" alt="SRBench 2025 black-box mean R²: Rils-Rols 0.640 first; NAI 0.090, 26th of 29">
 </picture>
-
-## Documents
-
-| date | document | folder | status |
-|---|---|---|---|
-| October 2026 | Hardin's Arrangements in Which Every Number Is a Sum of Others: Formulas and Sumsets | [hardin-sumsets](hardin-sumsets/) | preprint; submitted to the Journal of Integer Sequences |
-| October 2026 | OEIS findings that began with NAI (history and status of the edits) | [oeis-findings](oeis-findings/) | updated as the OEIS reviews the edits |
-| October 2026 | NAI on public benchmarks: SRBench, SLDBench, OEIS, compared with other systems | [benchmarks](benchmarks/) | short reports |
-
-Each paper folder holds the document (PDF and LaTeX source) and a `supplement`
-with the programs and data needed to check it.
 
 ## Use of AI assistants
 

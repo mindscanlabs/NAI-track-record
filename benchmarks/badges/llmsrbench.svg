@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="280" height="54" viewBox="0 0 280 54" role="img" aria-label="1st place, LLM-SRBench · new equations: Chemistry, biology, physics">
-<title>1st place, LLM-SRBench · new equations: Chemistry, biology, physics</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="54" viewBox="0 0 250 54" role="img" aria-label="1st place, LLM-SRBench · new equations: Accuracy in 4 of 5 sets">
+<title>1st place, LLM-SRBench · new equations: Accuracy in 4 of 5 sets</title>
 <defs>
   <linearGradient id="gold" gradientUnits="userSpaceOnUse" x1="0" y1="6" x2="0" y2="48">
     <stop offset="0" stop-color="#ecc54a"/><stop offset="0.55" stop-color="#d29a1c"/><stop offset="1" stop-color="#9c6a0e"/>
@@ -16,7 +16,7 @@
     .place { fill: #f0efec; } .cap { fill: #3987e5; } .res { fill: #f0efec; }
   }
 </style>
-<rect class="bg" x="0.5" y="0.5" width="279" height="53" rx="8"/>
+<rect class="bg" x="0.5" y="0.5" width="249" height="53" rx="8"/>
 <path class="stem" d="M32.37 43.83 A17 17 0 0 0 41.81 14.77"/>
 <path class="leaf" d="M35.25 43.17 Q38.42 47.98 43.81 45.95 Q40.65 41.13 35.25 43.17Z"/>
 <path class="leaf" d="M39.26 41.26 Q43.37 44.92 47.84 41.71 Q43.73 38.05 39.26 41.26Z"/>
@@ -39,5 +39,5 @@
 <path class="leaf" d="M18.62 14.37 Q22.21 13.52 22.17 9.83 Q18.58 10.68 18.62 14.37Z"/>
 <text class="place" x="30" y="34" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700">1</text>
 <text class="cap" x="66" y="22" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" letter-spacing="0.6">LLM-SRBENCH · NEW EQUATIONS</text>
-<text class="res" x="66" y="40" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700">Chemistry, biology, physics</text>
+<text class="res" x="66" y="40" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700">Accuracy in 4 of 5 sets</text>
 </svg>

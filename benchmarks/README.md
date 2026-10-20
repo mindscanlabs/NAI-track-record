@@ -10,11 +10,8 @@ Short reports of NAI on public benchmarks, with the other systems where a compar
 | SRBench 2025 | real measurements of physical laws, median R² | **0.9925, 1st of 28** | QLattice 0.987 | [srbench](srbench.md) |
 | SRBench 2025 | black-box regression, mean R² | 0.090, 26th of 29 | Rils-Rols 0.640 | [srbench](srbench.md) |
 | SLDBench | discovering neural scaling laws, mean R² | **0.775 ± 0.024, 1st** (within the spread of replicates) | SLDAgent (GPT-5) 0.748 | [sldbench](sldbench.md) |
-| LLM-SRBench | new equations, LSR-Synth chemistry / biology / physics, Acc0.1 | **80.56 / 75.00 / 43.18 %, 1st** in each | LLM-SR 66.66 / 58.33 / 36.36 % | [llmsrbench](llmsrbench.md) |
-| LLM-SRBench | LSR-Synth materials science, Acc0.1 | 80.00 %, 4th of 13 | LLM-SR (GPT-4o-mini) 88.28 % | [llmsrbench](llmsrbench.md) |
-| LLM-SRBench | LSR-Transform, Acc0.1 | 45.05 %, 4th of 13 | LaSR (GPT-4o-mini) 50.45 % | [llmsrbench](llmsrbench.md) |
-| LLM-SRBench, second run (second look) | LSR-Transform / chemistry / biology / physics, Acc0.1 | **72.07 / 91.67 / 70.83 / 47.73 %, 1st** in each | LaSR 50.45; LLM-SR 66.66 / 58.33 / 36.36 % | [llmsrbench](llmsrbench.md#second-run-a-newer-build-a-second-look) |
-| LLM-SRBench, second run (second look) | LSR-Synth materials science, Acc0.1 | 84.00 %, 3rd of 13 | LLM-SR (GPT-4o-mini) 88.28 % | [llmsrbench](llmsrbench.md#second-run-a-newer-build-a-second-look) |
+| LLM-SRBench | new equations, LSR-Transform / chemistry / biology / physics, Acc0.1 | **72.07 / 91.67 / 70.83 / 47.73 %, 1st** in each | LaSR 50.45; LLM-SR 66.66 / 58.33 / 36.36 % | [llmsrbench](llmsrbench.md) |
+| LLM-SRBench | LSR-Synth materials science, Acc0.1 | 84.00 %, 3rd of 13 | LLM-SR (GPT-4o-mini) 88.28 % | [llmsrbench](llmsrbench.md) |
 | OEIS | sequences with a known formula | 136 of 140, none wrong | no shared benchmark | [oeis](oeis.md) |
 
 Checks registered before the run, on data I had not used:

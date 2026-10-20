@@ -5,7 +5,7 @@
 <p align="center">
   <a href="benchmarks/sldbench.md"><img src="benchmarks/badges/sldbench.svg" alt="1st place on SLDBench (scaling laws): mean R² 0.775"></a>
   <a href="benchmarks/srbench.md"><img src="benchmarks/badges/first_principles.svg" alt="1st place of 28 on SRBench 2025 real data: median R² 0.9925"></a>
-  <a href="benchmarks/llmsrbench.md"><img src="benchmarks/badges/llmsrbench.svg" alt="1st place on LLM-SRBench in chemistry, biology and physics"></a>
+  <a href="benchmarks/llmsrbench.md"><img src="benchmarks/badges/llmsrbench.svg" alt="1st place on LLM-SRBench by accuracy in 4 of 5 sets"></a>
   <br>
   <a href="benchmarks/srbench.md"><img src="benchmarks/badges/feynman.svg" alt="1st place on SRBench 2021 Feynman: 60.3 % recovered exactly"></a>
   <a href="benchmarks/srbench.md"><img src="benchmarks/badges/feynman_noise.svg" alt="1st place on SRBench 2021 Feynman with 1 % noise: 48.3 % recovered exactly"></a>
@@ -98,26 +98,25 @@ R², NAI is fourth.
   <img src="benchmarks/charts/first_principles_light.svg" alt="SRBench 2025 first-principles median R²: NAI 0.9925, QLattice 0.9867, PySR 0.9135, and others">
 </picture>
 
-### LLM-SRBench: new equations, unseen before the run
+### LLM-SRBench: new equations
 
 Accuracy (Acc0.1: within 10 % of the true value on every test point) on the benchmark built for
 LLM-based equation discovery, against the twelve LLM-based systems of its paper. NAI: one run
-per problem, registered in advance, no language model. First run: first in three of the five
-sets, fourth in the other two. A second registered run with a newer build and the units of the
-variables in the tables, a second look at the same test, is first in four of the five:
+per problem, registered in advance, no language model. First in four of the five sets, third in
+materials science; on LSR-Transform 35 of 111 laws recovered exactly under a strict check:
 [report](benchmarks/llmsrbench.md).
 
-| set | NAI, first run | place of 13 | NAI, second run | place of 13 | best other system |
-|---|---|---|---|---|---|
-| LSR-Synth: chemistry | **80.56 %** | **1st** | **91.67 %** | **1st** | 66.66 % |
-| LSR-Synth: biology | **75.00 %** | **1st** | **70.83 %** | **1st** | 58.33 % |
-| LSR-Synth: physics | **43.18 %** | **1st** | **47.73 %** | **1st** | 36.36 % |
-| LSR-Synth: materials science | 80.00 % | 4th | 84.00 % | 3rd | 88.28 % |
-| LSR-Transform | 45.05 % | 4th | **72.07 %** | **1st** | 50.45 % |
+| set | NAI | best other system | place of 13 |
+|---|---|---|---|
+| LSR-Transform | **72.07 %** | 50.45 % | **1st** |
+| LSR-Synth: chemistry | **91.67 %** | 66.66 % | **1st** |
+| LSR-Synth: biology | **70.83 %** | 58.33 % | **1st** |
+| LSR-Synth: physics | **47.73 %** | 36.36 % | **1st** |
+| LSR-Synth: materials science | 84.00 % | 88.28 % | 3rd |
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="benchmarks/charts/llmsr_chem_dark.svg">
-  <img src="benchmarks/charts/llmsr_chem_light.svg" alt="LLM-SRBench chemistry Acc0.1: NAI, second run 91.67 %, NAI 80.56 %, LLM-SR (Llama-3.1-8B) 66.66 %, LLM-SR (GPT-4o-mini) 52.77 %, and others">
+  <source media="(prefers-color-scheme: dark)" srcset="benchmarks/charts/llmsr_transform_dark.svg">
+  <img src="benchmarks/charts/llmsr_transform_light.svg" alt="LLM-SRBench LSR-Transform Acc0.1: NAI 72.07 %, LaSR (GPT-4o-mini) 50.45 %, LaSR (GPT-3.5-turbo) 47.74 %, and others">
 </picture>
 
 ### SRBench 2025: black-box regression

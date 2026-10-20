@@ -102,20 +102,22 @@ R², NAI is fourth.
 
 Accuracy (Acc0.1: within 10 % of the true value on every test point) on the benchmark built for
 LLM-based equation discovery, against the twelve LLM-based systems of its paper. NAI: one run
-per problem, registered in advance, no language model. First in three of the five sets, fourth
-in the other two; recovering the exact law is its weak side here: [report](benchmarks/llmsrbench.md).
+per problem, registered in advance, no language model. First run: first in three of the five
+sets, fourth in the other two. A second registered run with a newer build and the units of the
+variables in the tables, a second look at the same test, is first in four of the five:
+[report](benchmarks/llmsrbench.md).
 
-| set | NAI | best other system | place of 13 |
-|---|---|---|---|
-| LSR-Synth: chemistry | **80.56 %** | 66.66 % | **1st** |
-| LSR-Synth: biology | **75.00 %** | 58.33 % | **1st** |
-| LSR-Synth: physics | **43.18 %** | 36.36 % | **1st** |
-| LSR-Synth: materials science | 80.00 % | 88.28 % | 4th |
-| LSR-Transform | 45.05 % | 50.45 % | 4th |
+| set | NAI, first run | place of 13 | NAI, second run | place of 13 | best other system |
+|---|---|---|---|---|---|
+| LSR-Synth: chemistry | **80.56 %** | **1st** | **91.67 %** | **1st** | 66.66 % |
+| LSR-Synth: biology | **75.00 %** | **1st** | **70.83 %** | **1st** | 58.33 % |
+| LSR-Synth: physics | **43.18 %** | **1st** | **47.73 %** | **1st** | 36.36 % |
+| LSR-Synth: materials science | 80.00 % | 4th | 84.00 % | 3rd | 88.28 % |
+| LSR-Transform | 45.05 % | 4th | **72.07 %** | **1st** | 50.45 % |
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="benchmarks/charts/llmsr_chem_dark.svg">
-  <img src="benchmarks/charts/llmsr_chem_light.svg" alt="LLM-SRBench chemistry Acc0.1: NAI 80.56 %, LLM-SR (Llama-3.1-8B) 66.66 %, LLM-SR (GPT-4o-mini) 52.77 %, and others">
+  <img src="benchmarks/charts/llmsr_chem_light.svg" alt="LLM-SRBench chemistry Acc0.1: NAI, second run 91.67 %, NAI 80.56 %, LLM-SR (Llama-3.1-8B) 66.66 %, LLM-SR (GPT-4o-mini) 52.77 %, and others">
 </picture>
 
 ### SRBench 2025: black-box regression

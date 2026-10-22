@@ -1,0 +1,2 @@
+# The registration fingerprint covers these files byte for byte: git must not change their line endings.
+registered/** -text

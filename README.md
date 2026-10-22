@@ -2,6 +2,8 @@
   <img src="nai_logo.png" alt="NAI logo" width="320">
 </p>
 
+<p align="center"><a href="https://naiscience.com"><b>naiscience.com</b></a></p>
+
 <p align="center">
   <a href="benchmarks/sldbench.md"><img src="benchmarks/badges/sldbench.svg" alt="1st place on SLDBench (scaling laws): mean R² 0.775"></a>
   <a href="benchmarks/srbench.md"><img src="benchmarks/badges/first_principles.svg" alt="1st place of 28 on SRBench 2025 real data: median R² 0.9925"></a>

@@ -1,6 +1,6 @@
 # OEIS findings that began with NAI
 
-Status as of 2026-10-18.
+Status as of 2026-10-23.
 
 This is the history of a set of contributions to the
 [OEIS](https://oeis.org) that started from formulas found by the NAI (No-Ansatz
@@ -104,11 +104,11 @@ A052372  NAI: g.f. | Claude: proof (Burnside's lemma), explicit numerator, asymp
 
 A122680  NAI: algebraic equation for the g.f. | Claude: proof | accepted
 ├── A122680 b-file  Heinz extended it from 1000 to 1075 terms by solving this equation
-└── A175883  NAI: g.f. | Claude: proof with the same kernel | pending
+└── A175883  NAI: g.f. | Claude: proof with the same kernel | accepted
 
 A151318  NAI: recurrence (already known), then g.f. | Claude: proof | accepted
 
-A361245  NAI: g.f., recurrence | Claude: proof, the simpler form C = 1 + x*C^3 + x^2*C^5, explicit sum | pending
+A361245  NAI: g.f., recurrence | Claude: proof, the simpler form C = 1 + x*C^3 + x^2*C^5, explicit sum | accepted
 
 A188350  NAI: recurrence | Claude: g.f. | accepted (as conjectures)
 
@@ -147,9 +147,9 @@ A263316, A212915, A212916  NAI: recurrences | already known (they were in the pr
 | [A052372](https://oeis.org/A052372) | pending | |
 | [A052373](https://oeis.org/A052373) | not yet submitted | |
 | [A122680](https://oeis.org/A122680) | accepted | [history](https://oeis.org/history?seq=A122680) |
-| [A175883](https://oeis.org/A175883) | pending | |
+| [A175883](https://oeis.org/A175883) | accepted | [history](https://oeis.org/history?seq=A175883) |
 | [A151318](https://oeis.org/A151318) | accepted | [history](https://oeis.org/history?seq=A151318) |
-| [A361245](https://oeis.org/A361245) | pending | |
+| [A361245](https://oeis.org/A361245) | accepted | [history](https://oeis.org/history?seq=A361245) |
 | [A188350](https://oeis.org/A188350) | accepted (as conjectures) | [history](https://oeis.org/history?seq=A188350) |
 | [A321032](https://oeis.org/A321032) | accepted (as conjectures) | [history](https://oeis.org/history?seq=A321032) |
 | [A263316](https://oeis.org/A263316), [A212915](https://oeis.org/A212915), [A212916](https://oeis.org/A212916) | already known | |

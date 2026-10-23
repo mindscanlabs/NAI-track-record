@@ -39,7 +39,7 @@ tables) and to a preprint, submitted to the Journal of Integer Sequences:
 
 ```
 A183880  NAI: recurrence | Claude: closed form, g.f. | accepted (as conjectures)
-└── A183881, A183887  NAI: recurrences | Claude: closed forms, proof | not yet submitted
+└── A183881, A183887  NAI: recurrences | Claude: closed forms, proof | pending
     └── The Hardin family, 32 entries  Claude: proof for all 28 sequences
         ├── Words, sum of two others
         │   ├── A183877  empirical formula (Kotesovec), conjectures (Barker): proved by Israel (2018), already known
@@ -139,7 +139,8 @@ A263316, A212915, A212916  NAI: recurrences | already known (they were in the pr
 | entry | status | |
 |---|---|---|
 | [A183880](https://oeis.org/A183880) | accepted (as conjectures); proof not yet submitted | [history](https://oeis.org/history?seq=A183880) |
-| [A183877](https://oeis.org/A183877) ... [A183912](https://oeis.org/A183912) | not yet submitted; see the [preprint](../hardin-sumsets/hardin-sumsets.pdf) | |
+| [A183881](https://oeis.org/A183881), [A183887](https://oeis.org/A183887) | pending (submitted 2026-10-23) | |
+| [A183877](https://oeis.org/A183877) ... [A183912](https://oeis.org/A183912), the others | not yet submitted; see the [preprint](../hardin-sumsets/hardin-sumsets.pdf) | |
 | [A180283](https://oeis.org/A180283) | accepted | [history](https://oeis.org/history?seq=A180283) |
 | [A180284](https://oeis.org/A180284), [A180285](https://oeis.org/A180285) | not yet submitted | |
 | [A321838](https://oeis.org/A321838) | accepted | [history](https://oeis.org/history?seq=A321838) |

@@ -1,7 +1,6 @@
 # The Whole f–I Curve of a Neuron from Its Rheobase and One Current Step
 
-Mikhail Smirnov, preprint, October 2026. Submitted to bioRxiv (Neuroscience, New
-Results) on 22 October 2026; the link will be added when it is posted.
+Mikhail Smirnov, preprint, October 2026. A DOI will be added when it is deposited.
 [PDF](neuron-fi-curves.pdf) · [LaTeX source](neuron-fi-curves.tex) · [registration, programs and results](supplement/)
 
 Full title: *The whole f–I curve of a neuron from its rheobase and one current step: a

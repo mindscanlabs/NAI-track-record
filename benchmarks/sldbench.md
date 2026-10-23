@@ -57,7 +57,19 @@ The protocol, data, baselines and binaries were fixed with a SHA-256 fingerprint
 
 The registered hypotheses were: no task below 0; on at least one task, not worse than the better baseline by more than 0.02; and not worse than the earlier build by more than 0.02 on either task (the earlier build scored 0.989 and 0.382). All three hold.
 
-An earlier check of the same kind, made with an earlier build of NAI on fresh data of five SLDBench task types, failed both of its hypotheses: NAI was better than the standard forms on two tasks (tokenization 0.986 against 0.802, data mixtures 0.989 against 0.987), worse on two, and failed catastrophically on the u_shape type, where its chosen forms exploded beyond the data. The current build was changed in response, and the change was then confirmed on the new data above before being scored on the SLDBench test. A run of the current build on the data of the earlier check will be added; it will be a run on data already seen, not a new check.
+An earlier check of the same kind, made with an earlier build of NAI on fresh data of five SLDBench task types, failed both of its hypotheses: NAI was better than the standard forms on two tasks (tokenization 0.986 against 0.802, data mixtures 0.989 against 0.987), worse on two, and failed catastrophically on the u_shape type, where its chosen forms exploded beyond the data. The current build was changed in response, and the change was then confirmed on the new data above before being scored on the SLDBench test.
+
+A later run on the data of that earlier check, with a later build (v22, 23 October 2026), is a run on data already seen, not a new check: the earlier check's failures shaped the changes since. Mean R² over five replicates:
+
+| task type | standard forms (better of two) | earlier build | v22 |
+|---|---|---|---|
+| lr & batch size | 0.938 | 0.869 | **0.947** |
+| MoE | **0.903** | 0.526 | 0.544 |
+| data mixtures | 0.987 | **0.989** | 0.988 |
+| tokenization | 0.802 | **0.986** | **0.986** |
+| u_shape | **0.095** | -100,733 | -0.028 |
+
+On three of the five tasks NAI is now level with or ahead of the standard forms; the u_shape catastrophe is gone, though its mean is still just below zero, so the earlier check's hypothesis of no task below zero would still fail. MoE remains a weakness: a power law in all inputs fits it far better than the forms NAI finds. The SLDBench test itself has not been scored with v22.
 
 ## Conditions and caveats
 

@@ -78,3 +78,27 @@ published with the result.
   largest rung.
 - The ladder was evaluated at 4K context, the final eval at 16K. B carries that difference
   unchanged; A takes the level from the run's 16K evals.
+
+## Notes added before the outcome (25 October 2026)
+
+These notes do not change the registration. They fix, before the outcome, how two known
+effects will be handled.
+
+- **The 4K to 16K packing offset.** A measurement in
+  [#8435](https://github.com/marin-community/marin/issues/8435) (bethehand) shows that the switch
+  of the eval from 4K to 16K packing alone lowered the Paloma macro by about 0.031 on nearly the
+  same weights (the qk16k-a1-step252k arm: 2.0929 and 2.0926 against 2.1234 for the 4K eval of the
+  same checkpoint; about 0.028 with qk_mult 1.3). Marin's 2.039 and my forecast B are both built
+  on evals at 4K packing; A takes its level from the run's 16K evals. So, against the 16K target,
+  the registered H1 (A against 2.039) and H4 (B against 2.039) favour my forecasts by about 0.03
+  from the packing change alone; H2 and H3 are not affected. I will score H1 to H4 as registered
+  and report, next to them, packing-corrected versions: the forecasts built at 4K (2.039 and B)
+  against y + Δ, where Δ is the 4K minus 16K difference of the final checkpoint's evals if Marin
+  logs one, and 0.0306 otherwise (0.0283 as a sensitivity check).
+- **A 262K eval packing.** If the final eval packs at 262K context, the PTB and WikiText-103
+  validation sets are shorter than one sequence and give no data, and the Paloma macro becomes a
+  mean over 14 subsets (about +0.06). That is the registered condition "the metric's set of
+  Paloma subsets changes": the forecasts are then reported and not scored. I will check it on the
+  final eval itself: a loss of 0.0, or no entry, for PTB or WikiText-103 means the set changed.
+  With all 16 subsets present (16K or 65K packing, or 262K with the eval's `max_seq_len` at
+  65,536, [#9890](https://github.com/marin-community/marin/pull/9890)), the hypotheses are scored.

@@ -1,7 +1,82 @@
 # Prospective forecast: the final loss of the Marin 535B-A23B run
 
-Made on 22 October 2026, while the run is still training. Its outcome is unknown to anyone
-until the run ends (planned for about 1 December 2026). Status: **open**.
+Made on 22 October 2026, while the run was still training. The run ended on 5 November 2026.
+Status: **scored on 5 November 2026**. The text published before the outcome is kept unchanged
+below the result.
+
+## Result
+
+The run's lineage ended with `hero-ctx65k-step372k` (65K training context from step 372,000),
+finished at step 390,250. The target, the last `eval_dropless/paloma/macro_loss` at a step of
+387,000 or later, is **y = 1.9602** (step 390,250). All 16 Paloma subsets of that eval have
+nonzero losses (PTB 1.7422, WikiText-103 1.0193), so the condition "the set of Paloma subsets
+changes" did not apply and the hypotheses are scored.
+
+| forecast | y forecast | 90 % interval | error |
+|---|---|---|---|
+| A: NAI, ladder and the run's own curve | 1.979 | [1.965, 1.994] | 0.019 |
+| B: NAI, ladder only | 1.935 | [1.915, 1.963] | 0.025 |
+| straight line through the run's 16K evals (my baseline) | 1.970 | | 0.009 |
+| Marin, 19 August 2026 | 2.039 | | 0.079 |
+
+Hypotheses, scored as registered:
+
+| hypothesis | check | result |
+|---|---|---|
+| **H1.** A is closer to y than Marin's 2.039 | 0.019 < 0.079 | **confirmed** |
+| **H2.** y lies in A's interval | 1.9602 < 1.965 | **not confirmed** (missed by 0.0045) |
+| **H3.** A is closer to y than the straight line | 0.019 > 0.009 | **not confirmed** |
+| **H4.** B is closer to y than Marin's 2.039 | 0.025 < 0.079 | **confirmed** |
+
+Not a hypothesis, for the record: y lies inside B's interval [1.915, 1.963].
+
+**Packing-corrected H1 and H4** (fixed before the outcome, see the notes below). The registered
+H1 and H4 favour my forecasts, because 2.039 and B were built on evals packed at 4K context
+while the target is the run's own eval. Marin re-evaluated the checkpoints at 4K after the run
+(`hero-ctx-evals-4k`). Its last checkpoint is step 390,000, 250 steps before the target. There
+the 4K eval reads 1.9817 and the run's eval of the same weights (step 389,999) 1.9590, so
+Δ = 0.0227 and y + Δ = 1.9829.
+
+- Corrected H1: A against y (0.019) and 2.039 against y + Δ (0.056): **holds**.
+- Corrected H4: B against y + Δ (0.048) and 2.039 against y + Δ (0.056): **holds**.
+- The fallback offsets fixed in advance (0.0306, and 0.0283 as a sensitivity check) would have
+  kept the corrected H1 and turned the corrected H4 into a miss. The measured offset replaces them,
+  as the notes said it would.
+
+What this shows: NAI's two laws, found without a given form, came closer to the final loss
+than the forecast Marin made from the same ladder, with and without the packing correction.
+What it does not show: A's interval was too narrow, and a straight line through the run's own
+recent evals did better than A. One outcome is one check.
+
+## The formulas, unsealed
+
+C is the compute in units of 10^18 FLOP without the lm_head (Marin's constants); for this run
+C = 2,610,894. f is the fraction of training done.
+
+- **B** (ladder only): L = 4.42018 - 0.463744 (f + sqrt(ln C)) - 0.0329024 ln(C) / e^f - 0.0600621 f^(-ln f).
+  At the run's C and f = 1 it gives 1.93497.
+- **A** (ladder and the run's curve): the law L = 4.70869 * 0.987093^(ln C + sqrt(e^f)) *
+  0.835265^(f + sqrt(ln sqrt(C))) * 1.02691^(f^(f^(ln f))) gives 2.00038 at the run's C and f = 1.
+  A adds the mean gap of the run's 16 evals at 16K context to the law at their own f (-0.02119):
+  2.00038 - 0.02119 = 1.97919.
+
+The files, as sealed on 21 October 2026, with their SHA-256 digests (the same as published below):
+
+| forecast | file | SHA-256 |
+|---|---|---|
+| A | [`ladder_hero.forms`](marin-535b/ladder_hero.forms) | `ebcaeac494a5fc9da20dbd6d34e678238712b07c14902f98734b4de7b4befc08` |
+| B | [`ladder.forms`](marin-535b/ladder.forms) | `af69a46e3e43f7896aabd099f4f82020bb2f4192153cbc1e99122d154c6d972b` |
+
+In each file the `form` line is the form NAI selected and the `group all` line holds the constants
+it was refitted with; those constants give the numbers above. In the forms, x0 is C and x1 is f.
+
+The registration's manifest, [`registration.manifest`](marin-535b/registration.manifest), lists the
+SHA-256 of every file the forecast rests on (the registration, the scripts, the W&B snapshot, the
+tables and the NAI build); its own SHA-256 is the fingerprint published before the outcome,
+`48391882756bad0ec50859b281812a2f7e1b8e43667db81fd22ee80530195939`. On 5 November 2026 I checked all
+23 files against it: none had changed.
+
+# As published before the outcome (22 to 25 October 2026)
 
 ## The run and the target
 

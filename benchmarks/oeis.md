@@ -9,7 +9,7 @@ NAI was given the first terms of combinatorial sequences from the On-Line Encycl
 - **Sequences with a known formula: 136 of 140 found, none wrong.**
 - **Sequences with no formula in their entry: formulas for 29 of 373,** all holding on every unseen term.
 - **79,557 unseen b-file terms** agree with NAI's answers; no answer disagrees with any term.
-- **Seven OEIS entries** now contain edits based on NAI's answers, accepted by the OEIS editors; three more are under review. See [oeis-findings](../oeis-findings/).
+- **Twelve OEIS entries** now contain edits based on NAI's answers, accepted by the OEIS editors. See [oeis-findings](../oeis-findings/).
 
 ## Sets
 
@@ -32,9 +32,8 @@ Each was checked against the full OEIS entry, including programs and linked file
 
 | outcome | entries |
 |---|---|
-| edit accepted into OEIS | A122680, A151318, A180283, A183880, A188350, A321032, A321838 |
-| submitted, under review | A052372, A175883, A361245 |
-| proved, not yet submitted | A180284, A180285, A183881, A183887 |
+| edit accepted into OEIS | A052372, A122680, A151318, A175883, A180283, A183880, A183881, A183887, A188350, A321032, A321838, A361245 |
+| proved, not yet submitted | A180284, A180285 |
 | conjectures, not submitted | A057647, A060898, A245002, A321839, A347947 |
 | already known in some form | A027439, A157253, A212915, A212916, A233290, A263316, A264765, A264812, A277359, A284230 |
 

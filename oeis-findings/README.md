@@ -58,7 +58,7 @@ A183880  NAI: recurrence | Claude: closed form, g.f. | accepted (as conjectures)
         │   ├── A183889  new formula, proved
         │   ├── A183890  new formula, proved
         │   ├── A183891  new formula, proved
-        │   └── A183892  table: every column covered
+        │   └── A183892  table: every column covered; Claude: a general comment on the recurrence orders | pending
         ├── Nondecreasing arrangements, sum of three others
         │   ├── A183897 ... A183901  empirical formulas (Hardin), conjectures (Barker): proved
         │   ├── A183902, A183903  empirical formulas (Hardin): proved
@@ -141,6 +141,7 @@ A263316, A212915, A212916  NAI: recurrences | already known (they were in the pr
 | [A183880](https://oeis.org/A183880) | accepted (as conjectures); proof not yet submitted | [history](https://oeis.org/history?seq=A183880) |
 | [A183881](https://oeis.org/A183881) | accepted | [history](https://oeis.org/history?seq=A183881) |
 | [A183887](https://oeis.org/A183887) | accepted | [history](https://oeis.org/history?seq=A183887) |
+| [A183892](https://oeis.org/A183892) | pending (a general comment on the recurrence orders of the columns, submitted 2026-11-05) | |
 | [A183877](https://oeis.org/A183877) ... [A183912](https://oeis.org/A183912), the others | not yet submitted; see the [preprint](../hardin-sumsets/hardin-sumsets.pdf) | |
 | [A180283](https://oeis.org/A180283) | accepted | [history](https://oeis.org/history?seq=A180283) |
 | [A180284](https://oeis.org/A180284), [A180285](https://oeis.org/A180285) | not yet submitted | |

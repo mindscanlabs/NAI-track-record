@@ -30,6 +30,11 @@ Hypotheses, scored as registered:
 
 Not a hypothesis, for the record: y lies inside B's interval [1.915, 1.963].
 
+Marin's official summary of the run
+([#8435](https://github.com/marin-community/marin/issues/8435#issuecomment-6670507901), 5 November 2026) confirms both
+numbers used here: 1.960 at the 65K training context (step 390,250), the target, and 1.982 at 4K (step 390,000), the
+value behind the packing correction below.
+
 **Packing-corrected H1 and H4** (fixed before the outcome, see the notes below). The registered
 H1 and H4 favour my forecasts, because 2.039 and B were built on evals packed at 4K context
 while the target is the run's own eval. Marin re-evaluated the checkpoints at 4K after the run

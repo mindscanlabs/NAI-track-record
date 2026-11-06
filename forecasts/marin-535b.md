@@ -35,6 +35,14 @@ Marin's official summary of the run
 numbers used here: 1.960 at the 65K training context (step 390,250), the target, and 1.982 at 4K (step 390,000), the
 value behind the packing correction below.
 
+**Note added on 6 November 2026, before any result of the extension.** Marin decided to extend the model at 262K
+context, starting from the average of its final checkpoints and running to step 393,491
+([#8435](https://github.com/marin-community/marin/issues/8435#issuecomment-6696441295)). I read the registered run as
+the 390,251-step, 18T-token run that Marin declared finished, so the score above stands: the extension starts from
+merged weights and goes beyond the registered run. Under the other reading the extension would be part of the
+lineage. Its final eval would then be at 262K without PTB and WikiText-103, which is the registered condition "the set
+of Paloma subsets changes", and the hypotheses would not be scored.
+
 **Packing-corrected H1 and H4** (fixed before the outcome, see the notes below). The registered
 H1 and H4 favour my forecasts, because 2.039 and B were built on evals packed at 4K context
 while the target is the run's own eval. Marin re-evaluated the checkpoints at 4K after the run

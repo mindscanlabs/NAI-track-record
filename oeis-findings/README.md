@@ -1,6 +1,6 @@
 # OEIS findings that began with NAI
 
-Status as of 2026-11-05.
+Status as of 2026-11-10.
 
 This is the history of a set of contributions to the
 [OEIS](https://oeis.org) that started from formulas found by the NAI (No-Ansatz
@@ -45,10 +45,10 @@ A183880  NAI: recurrence | Claude: closed form, g.f. | accepted (as conjectures)
         │   ├── A183877  empirical formula (Kotesovec), conjectures (Barker): proved by Israel (2018), already known
         │   ├── A183878  empirical formula (Kotesovec), conjectures (Barker): proved
         │   ├── A183879  empirical formula (Kotesovec), conjectures (Barker): proved
-        │   ├── A183880  conjectures (accepted above): proved
+        │   ├── A183880  conjectures (accepted above): proved | pending
         │   ├── A183881  new formula, proved
-        │   ├── A183882  new formula, proved | pending
-        │   ├── A183883  new formula, proved
+        │   ├── A183882  new formula, proved | accepted
+        │   ├── A183883  new formula, proved | pending
         │   └── A183884  table: every column covered; Claude: a general comment on the recurrence orders | pending
         ├── Words, sum of three others
         │   ├── A183885  empirical formula (Kotesovec), conjectures (Barker): proved
@@ -100,7 +100,7 @@ A321838  NAI: recurrence | Claude: g.f. (accepted); then proof and a new formula
 A321839  NAI: algebraic g.f. (conjecture) | not yet submitted
 
 A052372  NAI: g.f. | Claude: proof (Burnside's lemma), explicit numerator, asymptotics | accepted
-└── A052373  Claude: g.f. by the same argument, proof | pending
+└── A052373  Claude: g.f. by the same argument, proof | accepted
 
 A122680  NAI: algebraic equation for the g.f. | Claude: proof | accepted
 ├── A122680 b-file  Heinz extended it from 1000 to 1075 terms by solving this equation
@@ -138,10 +138,11 @@ A263316, A212915, A212916  NAI: recurrences | already known (they were in the pr
 
 | entry | status | |
 |---|---|---|
-| [A183880](https://oeis.org/A183880) | accepted (as conjectures); proof not yet submitted | [history](https://oeis.org/history?seq=A183880) |
+| [A183880](https://oeis.org/A183880) | accepted (as conjectures); the proof is pending ("Conjectures" removed, submitted 2026-11-10) | [history](https://oeis.org/history?seq=A183880) |
+| [A183883](https://oeis.org/A183883) | pending (a new closed form with its proof and the g.f., submitted 2026-11-10) | |
 | [A183881](https://oeis.org/A183881) | accepted | [history](https://oeis.org/history?seq=A183881) |
 | [A183887](https://oeis.org/A183887) | accepted | [history](https://oeis.org/history?seq=A183887) |
-| [A183882](https://oeis.org/A183882) | pending (a new closed form with its proof and the g.f., submitted 2026-11-05) | |
+| [A183882](https://oeis.org/A183882) | accepted (a new closed form with its proof and the g.f.) | [history](https://oeis.org/history?seq=A183882) |
 | [A183884](https://oeis.org/A183884) | pending (a general comment on the recurrence orders of the columns, submitted 2026-11-05) | |
 | [A183892](https://oeis.org/A183892) | accepted (a general comment on the recurrence orders of the columns) | [history](https://oeis.org/history?seq=A183892) |
 | [A183877](https://oeis.org/A183877) ... [A183912](https://oeis.org/A183912), the others | not yet submitted; see the [preprint](../hardin-sumsets/hardin-sumsets.pdf) | |
@@ -150,7 +151,7 @@ A263316, A212915, A212916  NAI: recurrences | already known (they were in the pr
 | [A321838](https://oeis.org/A321838) | accepted | [history](https://oeis.org/history?seq=A321838) |
 | [A321839](https://oeis.org/A321839), [A213291](https://oeis.org/A213291) | not yet submitted | |
 | [A052372](https://oeis.org/A052372) | accepted | [history](https://oeis.org/history?seq=A052372) |
-| [A052373](https://oeis.org/A052373) | pending (the g.f. as an attached file and the asymptotics, submitted 2026-11-05) | |
+| [A052373](https://oeis.org/A052373) | accepted (the g.f. as an attached file and the asymptotics) | [history](https://oeis.org/history?seq=A052373) |
 | [A122680](https://oeis.org/A122680) | accepted | [history](https://oeis.org/history?seq=A122680) |
 | [A175883](https://oeis.org/A175883) | accepted | [history](https://oeis.org/history?seq=A175883) |
 | [A151318](https://oeis.org/A151318) | accepted | [history](https://oeis.org/history?seq=A151318) |

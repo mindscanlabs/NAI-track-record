@@ -1,0 +1,128 @@
+# NAI-fnet on four suites of open engineering and physical tables
+
+Four registered tests of NAI-fnet against general-purpose models on open tables, before the device examples
+([README](README.md)). Each suite was new to the network when its test ran. Their registration documents are not
+published: they describe the network's method. Their fingerprints are given below, so that the documents can be shown
+and checked later (for example to a partner under a confidentiality agreement).
+
+## The common design
+
+- **Tables:** open tables of engineering and physical dependencies (sources in each suite's list), with their cleaning,
+  inputs and target fixed before any model was run.
+- **Splits:** *inside*: a random 75/25 split (by groups of repeated measurements where the data have them; for time
+  series, the first 75 % in time); *edge*: the training rows at or below the 80 % quantile of the input most correlated
+  with the target (or of the target itself), the test rows above it; from the fresh suite on, also the mirror (train above
+  the 20 % quantile, test below it). A table lacks a split when its rule is not met.
+- **Measure:** relative RMSE = the RMSE on the test rows divided by the RMSE of the training mean on them, per (table,
+  split) pair; a model's score for a group is the median over its pairs. A pair above 1 is a failure (worse than
+  predicting the mean).
+- **Models**, run by me on the same splits: LightGBM and CatBoost tuned by random search, their defaults, XGBoost, EBM,
+  an MLP (two hidden layers of 64), ridge regression, FFX, NAI with one formula, and a reference: the mean of the training
+  rows at the edge (for edge pairs only).
+- **C code:** NAI-fnet's and LightGBM's models compiled the same way (gcc -O2, double); size and time per prediction on one
+  PC; median ratios over the suite's tables.
+- **One look:** each test ran once; after its run a suite became development material for the next builds of the
+  network (the expectations of the fourth test were computed on the first three). The numbers below are the single
+  registered looks; each suite tested the build frozen for it, and the network changed between the suites.
+
+## Niche suite (registered 3 November 2026)
+
+13 test tables, 34 pairs: ccpp, cfd_wavy_channel, chf_kaeri, chf_zhao, elevators, esol, gas_turbine_nox, nikuradse,
+olympus_hplc, olympus_suzuki, sulfur, synchronous_machine, yacht. Fingerprint
+`540afdbe561623882fe9ffd6d55896a905374efc84aa5f008e4cc4f541922303`.
+
+| model | edge | inside | pairs above 1 |
+|---|---|---|---|
+| MLP | 0.466 | 0.285 | 2 |
+| ridge | 0.500 | 0.346 | 1 |
+| tuned LightGBM | 0.517 | 0.181 | 2 |
+| **NAI-fnet** | **0.520** | **0.265** | **4** |
+| EBM | 0.533 | 0.196 | 3 |
+| tuned CatBoost | 0.559 | 0.169 | 3 |
+| edge reference | 0.645 | | 2 |
+
+- H1, edge below tuned LightGBM and tuned CatBoost: **failed** (0.520 against 0.517 and 0.559).
+- H2, no more failures than tuned LightGBM: **failed** (4 against 2).
+- H3, inside at most 1.5 x tuned LightGBM: **held** (0.265 against 0.272).
+- H4, LightGBM's C at least 10 x larger and 3 x slower: **held** (364 x, 7.3 x).
+- H5, edge at most 1.1 x EBM: **held** (0.520 against 0.586).
+
+## Fresh suite (registered 4 November 2026)
+
+11 test tables, 52 pairs, beyond the data on both sides: gravel_flow_resistance, pier_scour_lab, co2_flow_boiling,
+orifice_two_phase_dp, ceramic_packings_dp, chnt1_lift, alkane_ignition_delay, sfrc_shear, corroded_rc_beams,
+soil_thermal_conductivity, electrolyte_conductivity. Fingerprint
+`b6cd9d28b7df414f7c0e8c9fe0052809f4c6b34b9fdb6bf5d0efa23e3bde3488`.
+
+| model | edge | inside | pairs above 1 |
+|---|---|---|---|
+| edge reference | 0.420 | | 0 |
+| **NAI-fnet** | **0.443** | **0.311** | **5** |
+| NAI, one formula | 0.455 | 0.479 | 7 |
+| tuned CatBoost | 0.457 | 0.217 | 0 |
+| tuned LightGBM | 0.458 | 0.238 | 0 |
+| EBM | 0.478 | 0.226 | 1 |
+| MLP | 0.487 | 0.282 | 3 |
+
+- H1, edge at most tuned LightGBM: **held** (0.443 against 0.458).
+- H2, no more failures than tuned LightGBM: **failed** (5 against 0).
+- H3, inside at most 1.5 x tuned LightGBM: **held** (0.311 against 0.357).
+- H4, LightGBM's C at least 10 x larger and 3 x slower: **held** (421 x, 14.9 x).
+- H5, edge at most 1.15 x the MLP and 1.15 x EBM: **held**.
+
+The simple edge reference was better beyond the edge than every model, NAI-fnet included.
+
+## Third suite (registered 5 November 2026)
+
+9 test tables, 43 pairs: soil_ksat, cfst_columns, co2_ionic_liquids, mwcnt_nanofluid_k, clay_swelling, frp_uhpc_bond,
+airfoil_cl, kiln_residence, biomass_pyrolysis. Fingerprint
+`27bc431e51749aa4331fbe9b8b3bb3e466ecc5fdd83ee3344260e75d8ff70dff`.
+
+| model | edge | inside | pairs above 1 |
+|---|---|---|---|
+| **NAI-fnet** | **0.504** | **0.402** | **7** |
+| tuned CatBoost | 0.533 | 0.387 | 5 |
+| tuned LightGBM | 0.541 | 0.390 | 3 |
+| EBM | 0.564 | 0.513 | 6 |
+| MLP | 0.567 | 0.476 | 6 |
+| edge reference | 0.569 | | 2 |
+| NAI, one formula | 0.924 | 0.847 | 17 |
+
+- H1, edge at most tuned LightGBM: **held** (0.504 against 0.541; the best edge score of all models).
+- H2, no more failures than tuned LightGBM: **failed** (7 against 3; mostly noisy compilations of literature data).
+- H3, inside at most 1.5 x tuned LightGBM: **held** (0.402 against 0.585).
+- H4, LightGBM's C at least 10 x larger and 3 x slower: **failed** (53 x larger, but 0.9 x as fast). The registration
+  expected this failure of the speed part from development.
+- H5, edge at most 1.15 x the MLP and 1.15 x EBM: **held**.
+
+## Fourth suite (registered 6 November 2026)
+
+7 test tables in the product's declared scope (a physical quantity depending on a few quantities; laboratory or
+simulation data), 32 pairs, all CC BY 4.0: droplet_spreading, nanofluid_conductivity, bubble_column_holdup,
+sma_ms_temperature, rockfill_triaxial, mortar_dif, nanofluid_convection_nu. Chosen by scope, so not directly comparable
+with the earlier suites. Fingerprint `ab730ff164976512aab478d87fb5d428ff692aef4337b658b1fcbf9198c2e5c5`.
+
+| model | edge | inside | pairs above 1 |
+|---|---|---|---|
+| MLP | 0.367 | 0.443 | 2 |
+| **NAI-fnet** | **0.474** | **0.419** | **1** |
+| EBM | 0.483 | 0.325 | 2 |
+| edge reference | 0.531 | | 0 |
+| tuned LightGBM | 0.535 | 0.392 | 1 |
+| tuned CatBoost | 0.554 | 0.408 | 2 |
+| NAI, one formula | 0.638 | 0.667 | 5 |
+
+- H1, edge at most tuned LightGBM: **held** (0.474 against 0.535).
+- H2, no more failures than tuned LightGBM: **held** (1 against 1).
+- H3, inside at most 1.5 x tuned LightGBM: **held** (0.419 against 0.588).
+- H4, LightGBM's C at least 10 x larger and 3 x slower: **held** (46 x, 3.9 x).
+- H5, edge at most 1.15 x the MLP and 1.15 x EBM: **failed** (0.474 against 1.15 x 0.367 = 0.422 for the MLP).
+
+## Across the four suites
+
+NAI-fnet was the most accurate model beyond the edge in the third suite and ahead of tuned boosting beyond the edge in
+the fresh, third and fourth suites; in the niche suite it was level with tuned LightGBM. Inside the data, tuned boosting
+was more accurate in every suite. Reliability was the weak point: in three suites NAI-fnet had more failed pairs than
+tuned LightGBM; only the fourth suite, chosen by the product's scope, had as few. Beyond the edge an MLP was better in the
+niche and fourth suites, ridge regression in the niche suite, and the simple edge reference in the fresh suite. Its compiled C was 46 to 421 times smaller than LightGBM's, and faster except in the
+third suite.

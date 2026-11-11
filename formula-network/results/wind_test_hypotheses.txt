@@ -1,0 +1,12 @@
+model               WT11 NRMSE %    WT12 NRMSE %    WT13 NRMSE %    WT14 NRMSE %    WT15 NRMSE %   mean   |energy| %   C bytes / ns (WT11)
+fnet_res                   2.145           2.264           2.218           2.242           2.433  2.260       0.40   17632 / 368
+iec                        2.873           3.056           2.556           2.757           3.511  2.951       0.22   -
+lightgbm_tuned             2.035           2.154           2.071           2.138           2.290  2.138       0.43   1099616 / 35581
+mlp32                      2.215           2.349           2.324           2.286           2.473  2.329       0.34   11104 / 700
+
+H1 fnet mean NRMSE 2.260 % < IEC power curve 2.951 %: yes
+H2 fnet mean NRMSE 2.260 % <= 1.15 x tuned LightGBM 2.138 % = 2.458 %: yes
+H3 fnet mean NRMSE 2.260 % < MLP 32x32 2.329 %: yes
+H4 LightGBM / fnet C, median over turbines: size x60.5, time x96.7 (both >= 10), C = model on every turbine True: yes
+H5 mean |energy error| fnet 0.40 % < IEC 0.22 %: no
+(reported) mean |energy error|: LightGBM 0.43 %, MLP 0.34 %

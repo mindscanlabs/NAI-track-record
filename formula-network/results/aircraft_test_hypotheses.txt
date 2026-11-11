@@ -1,0 +1,21 @@
+CLWALL
+  fnet             inside RMSE   0.01443 (0.055 sd)   edge RMSE   0.02818 (0.104 sd)   C 18912 B, 2636 ns
+  table            inside RMSE    0.1154 (0.443 sd)   edge RMSE   0.07678 (0.283 sd)   table of 659 values
+  lightgbm_tuned   inside RMSE     0.013 (0.050 sd)   edge RMSE   0.02142 (0.079 sd)   C 310032 B, 5383 ns
+  mlp32            inside RMSE   0.02924 (0.112 sd)   edge RMSE   0.03522 (0.130 sd)   C 10816 B, 665 ns
+CDWALL
+  fnet             inside RMSE     14.18 counts (0.050 sd)   edge RMSE     27.76 counts (0.064 sd)   C 20608 B, 2282 ns
+  table            inside RMSE     92.75 counts (0.327 sd)   edge RMSE     205.8 counts (0.472 sd)   table of 659 values
+  lightgbm_tuned   inside RMSE      21.4 counts (0.076 sd)   edge RMSE     42.82 counts (0.098 sd)   C 496272 B, 14256 ns
+  mlp32            inside RMSE     33.28 counts (0.117 sd)   edge RMSE     41.89 counts (0.096 sd)   C 10816 B, 667 ns
+CMWALL
+  fnet             inside RMSE  0.008256 (0.074 sd)   edge RMSE   0.02029 (0.177 sd)   C 15808 B, 1952 ns
+  table            inside RMSE   0.03566 (0.318 sd)   edge RMSE   0.03858 (0.336 sd)   table of 659 values
+  lightgbm_tuned   inside RMSE   0.01457 (0.130 sd)   edge RMSE   0.02662 (0.232 sd)   C 499904 B, 14959 ns
+  mlp32            inside RMSE    0.0232 (0.207 sd)   edge RMSE   0.02943 (0.256 sd)   C 10816 B, 662 ns
+
+H1 CD beyond the edge: fnet 27.8 counts < table 205.8: yes
+H2 CD beyond the edge: fnet 27.8 counts <= tuned LightGBM 42.8: yes
+H3 CL beyond the edge: fnet 0.0282 <= tuned LightGBM 0.0214: no
+H4 CD inside: fnet 14.2 counts <= 1.15 x tuned LightGBM 21.4: yes
+H5 C: LightGBM / fnet size x16.4, x24.1, x31.6 (each >= 10), C = model True: yes

@@ -1,0 +1,12 @@
+model              MSE K^2   max K  max K after 10 min   C bytes     C ns  per profile (MSE / max)
+fnet                 1.760    8.79                6.33     86816   1106.8  [60: 1.48 / 3.0]  [62: 1.41 / 4.3]  [74: 2.30 / 8.8]
+mlp32                3.116    9.75                6.08     27744   1953.0  [60: 3.00 / 6.3]  [62: 3.65 / 6.3]  [74: 2.61 / 9.7]
+ols                  5.604    8.37                7.65       704     68.2  [60: 4.16 / 8.4]  [62: 6.37 / 8.2]  [74: 5.67 / 7.7]
+lightgbm_tuned       6.616   12.73                7.77   5087280 142871.9  [60: 3.28 / 5.6]  [62: 12.18 / 7.8]  [74: 2.66 / 12.7]
+
+H1 fnet MSE 1.760 <= 1.15 x MLP 32x32 3.116 = 3.584: yes
+H2 fnet MSE 1.760 <= 0.5 x tuned LightGBM 6.616 = 3.308: yes
+H3 fnet MSE 1.760 < ridge 5.604: yes
+H4 fnet max error after 10 min 6.33 K <= 1.25 x MLP's 6.08 = 7.60: yes
+H5 fnet C 86816 B < LightGBM C 5087280 B, and C = model (max diff 0): yes
+(context, not comparable: Thermal Neural Network on the same test profiles without stator inputs, rotor only: MSE 4.34 K^2, max 6.02 K; Kirchgaessner et al., EAAI 2023, fig. 9)

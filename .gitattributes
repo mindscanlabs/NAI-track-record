@@ -2,3 +2,5 @@
 *.png binary
 *.pdf binary
 forecasts/marin-535b/* -text
+formula-network/registered/** -text
+formula-network/results/* -text

@@ -6,7 +6,9 @@ neuron is a short formula. The model is exported as plain C (no runtime, no dyna
 controller board. Its method and source code are not part of this repository; this folder records how it did in tests
 whose hypotheses were written down before the one run on the test data.
 
-Status as of 11 November 2026: eight registered tests, 32 of 40 hypotheses held. Product page with the three device
+Status as of 12 November 2026: eight registered tests, 32 of 40 hypotheses held. Preprint with all eight tests and
+bootstrap intervals of the comparisons: Zenodo, DOI [10.5281/zenodo.24163946](https://doi.org/10.5281/zenodo.24163946).
+Product page with the three device
 examples and their simulators: [naiscience.com/fnet.html](https://naiscience.com/fnet.html).
 
 | registered | test | data | hypotheses held | failed |

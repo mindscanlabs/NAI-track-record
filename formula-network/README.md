@@ -41,8 +41,10 @@ fingerprint in this repository before its run, as I did for the [Marin forecast]
 *A virtual joint-torque sensor.* A robot controller needs the torque each joint motor must give (feed-forward control,
 collision detection); a nominal rigid-body model of the arm misses friction, cables and errors in the nominal masses.
 
-- **Data:** Robot Inverse Dynamics Dataset (Giacomuzzo, Dalla Libera, Romeres; MERL; Zenodo 12516500, CC BY-SA 4.0), the
-  real Franka Emika Panda part, with the protocol of the dataset's paper (IEEE Transactions on Robotics, 2024): 12
+- **Data:** the data of "A Black-Box Physics-Informed Estimator Based on Gaussian Process Regression for Robot Inverse
+  Dynamics Identification" (Giacomuzzo, Dalla Libera, University of Padua; Romeres, MERL; Zenodo 12516500, CC BY-SA 4.0),
+  the real Franka Emika Panda part, with the protocol of that paper (Giacomuzzo, Carli, Romeres, Dalla Libera, IEEE
+  Transactions on Robotics 40, 2024): 12
   training combinations of two trajectories each, 16 richer test trajectories, every 10th sample.
 - **Formulation:** every model learns what the nominal model misses (the measured torque minus the nominal torque) from
   the joints' positions, velocities, accelerations, sin and cos of the positions (35 inputs); the nominal model ships

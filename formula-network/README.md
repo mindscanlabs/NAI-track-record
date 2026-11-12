@@ -62,7 +62,7 @@ collision detection); a nominal rigid-body model of the arm misses friction, cab
 | nominal model alone | 0.641 % | | |
 
 Hypotheses: H1 fnet at most the paper's model on the elbow, **held**; H2 at most 1.25 x tuned LightGBM, **held** (LightGBM
-is slightly more accurate); H3 below the MLP, **held**; H4 LightGBM's C at least 10 x larger and slower, compiled output
+is more accurate, by 3.5 %; 95 % bootstrap interval of the ratio 1.02 to 1.05 over the test trajectories); H3 below the MLP, **held**; H4 LightGBM's C at least 10 x larger and slower, compiled output
 equal to the model's to the bit, **held** (16.7 x larger, 44.9 x slower); H5 below the paper's model on at least 5 of 7
 joints, **held** (5 of 7). Reported, not tested: averaged over the seven joints the paper's model is better (3.02 % against
 3.48 %), because of the wrist joint 7 (5.8 % against 11.7 %). Full output: [results/robot_test_hypotheses.txt](results/robot_test_hypotheses.txt).
@@ -100,7 +100,9 @@ reveals icing, pitch or yaw faults and underperformance.
 - **Data:** Penmanshiel wind farm (Cubico Sustainable Investments; Zenodo 10.5281/zenodo.16807304, CC BY 4.0), turbines
   WT11 to WT15, 10-minute SCADA; train April to December 2018, test the whole of 2019.
 - **Formulation:** the IEC power curve fitted on the training rows is the nominal model; the network learns its error
-  from wind speed, its standard deviation, yaw misalignment, wind direction and ambient temperature.
+  from wind speed, its standard deviation, yaw misalignment, the sine and cosine of the wind direction, ambient
+  temperature and the curve's value. Tuned LightGBM and the MLP learned the power directly from the six measured inputs,
+  without the curve: they were not given the same nominal model, which favours NAI-fnet in this comparison.
 - **Measure:** NRMSE (RMSE / rated power 2050 kW) and the absolute energy error over the year, mean over the five turbines.
 
 | model | NRMSE | energy error | C code (WT11) | per prediction |
@@ -140,11 +142,13 @@ Reported, not tested: pitching moment beyond the edge, NAI-fnet 0.0203 against L
 
 ## Conditions common to the four examples
 
-- One build of NAI-fnet, released in NAI before these tests, with its released settings, 120 s, 4 threads, seed 1. None
+- One build of NAI-fnet: NAI v26 (`nai_cli --net`, network version 13), released before these tests, with its released
+  settings, 120 s, 4 threads, seed 1; the SHA-256 of its binary is in each manifest. None
   of the four datasets was used in its development; each formulation (inputs, target, sampling) was chosen on the
   training side only, as each registration records.
 - The competitors were run by me on the same rows and inputs: LightGBM tuned by a random search over 20 settings with a
-  3-fold check grouped as the data require, and an MLP with two hidden layers of 32 units and early stopping. Published
+  3-fold check inside the training rows (grouped by profile, calendar week or wind-tunnel run for the motor, the turbines
+  and the airliner), and an MLP with two hidden layers of 32 units and early stopping, not tuned. Published
   models (the robot's GP models) enter through the authors' own estimates.
 - C code size is the object file's code and constants (gcc -O2, double); time per prediction was measured on one PC for
   every model alike, not on a microcontroller. Every model's compiled C was checked against the model's own predictions.

@@ -1,6 +1,6 @@
 # OEIS findings that began with NAI
 
-Status as of 2026-11-11.
+Status as of 2026-11-12.
 
 This is the history of a set of contributions to the
 [OEIS](https://oeis.org) that started from formulas found by the NAI (No-Ansatz
@@ -48,7 +48,7 @@ A183880  NAI: recurrence | Claude: closed form, g.f. | accepted (as conjectures,
         │   ├── A183880  conjectures (accepted above): proved | accepted
         │   ├── A183881  new formula, proved
         │   ├── A183882  new formula, proved | accepted
-        │   ├── A183883  new formula, proved | pending
+        │   ├── A183883  new formula, proved | accepted
         │   └── A183884  table: every column covered; Claude: a general comment on the recurrence orders | accepted
         ├── Words, sum of three others
         │   ├── A183885  empirical formula (Kotesovec), conjectures (Barker): proved
@@ -85,8 +85,8 @@ In numbers:
   one step later than stated.
 
 Accepted in the OEIS so far: A183880 (the conjectures, then their proof), the new
-formulas in A183881, A183882 and A183887, and the general comments on the columns
-in the tables A183884 and A183892. A183883, A183888 and A183889 are under review. The rest is not yet
+formulas in A183881, A183882, A183883 and A183887, and the general comments on the columns
+in the tables A183884 and A183892. A183888 and A183889 are under review. The rest is not yet
 submitted; all of it is in the
 [preprint](../hardin-sumsets/hardin-sumsets.pdf).
 
@@ -141,7 +141,7 @@ A263316, A212915, A212916  NAI: recurrences | already known (they were in the pr
 | entry | status | |
 |---|---|---|
 | [A183880](https://oeis.org/A183880) | accepted (as conjectures, then the proof: "Conjectures" removed) | [history](https://oeis.org/history?seq=A183880) |
-| [A183883](https://oeis.org/A183883) | pending (a new closed form with its proof and the g.f., submitted 2026-11-10) | |
+| [A183883](https://oeis.org/A183883) | accepted (a new closed form with its proof and the g.f.) | [history](https://oeis.org/history?seq=A183883) |
 | [A183888](https://oeis.org/A183888), [A183889](https://oeis.org/A183889) | pending (new closed forms with their proofs and the g.f.s, submitted 2026-11-11) | |
 | [A183881](https://oeis.org/A183881) | accepted | [history](https://oeis.org/history?seq=A183881) |
 | [A183887](https://oeis.org/A183887) | accepted | [history](https://oeis.org/history?seq=A183887) |

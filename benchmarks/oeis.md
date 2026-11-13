@@ -9,7 +9,7 @@ NAI was given the first terms of combinatorial sequences from the On-Line Encycl
 - **Sequences with a known formula: 136 of 140 found, none wrong.**
 - **Sequences with no formula in their entry: formulas for 29 of 373,** all holding on every unseen term.
 - **79,557 unseen b-file terms** agree with NAI's answers; no answer disagrees with any term.
-- **Twelve OEIS entries** now contain edits based on NAI's answers, accepted by the OEIS editors. Five more carry accepted edits that grew out of them: new formulas and general comments in the Hardin family (A183882, A183883, A183884, A183892) and the 7 x 7 case of a generating function NAI found for 6 x 6 matrices (A052373). See [oeis-findings](../oeis-findings/).
+- **Twelve OEIS entries** now contain edits based on NAI's answers, accepted by the OEIS editors. Seven more carry accepted edits that grew out of them: new formulas and general comments in the Hardin family (A183882, A183883, A183884, A183889, A183890, A183892) and the 7 x 7 case of a generating function NAI found for 6 x 6 matrices (A052373). See [oeis-findings](../oeis-findings/).
 
 ## Sets
 

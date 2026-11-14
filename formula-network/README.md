@@ -1,4 +1,4 @@
-# NAI-fnet: eight registered tests of a network of formulas for embedded models
+# NAI-fnet: ten registered tests of a network of formulas for embedded models
 
 NAI-fnet is the part of the NAI (No-Ansatz Inference) system, which I develop for finding formulas that fit given data
 without fixing their form in advance, that builds a model when one formula is not enough: a network in which every
@@ -6,8 +6,8 @@ neuron is a short formula. The model is exported as plain C (no runtime, no dyna
 controller board. Its method and source code are not part of this repository; this folder records how it did in tests
 whose hypotheses were written down before the one run on the test data.
 
-Status as of 12 November 2026: eight registered tests, 32 of 40 hypotheses held. Preprint with all eight tests and
-bootstrap intervals of the comparisons: Zenodo, DOI [10.5281/zenodo.24163946](https://doi.org/10.5281/zenodo.24163946).
+Status as of 14 November 2026: ten registered tests, 42 of 52 hypotheses held. The first eight (version v13) are in the
+preprint, with bootstrap intervals of the comparisons: Zenodo, DOI [10.5281/zenodo.24163946](https://doi.org/10.5281/zenodo.24163946).
 Product page with the three device
 examples and their simulators: [naiscience.com/fnet.html](https://naiscience.com/fnet.html).
 
@@ -21,9 +21,11 @@ examples and their simulators: [naiscience.com/fnet.html](https://naiscience.com
 | 9 Nov 2026 | [rotor temperature of a traction motor](#rotor-temperature-of-a-traction-motor) | Paderborn University test bench | 5 of 5 | |
 | 9 Nov 2026 | [expected power of wind turbines](#expected-power-of-wind-turbines) | Penmanshiel wind farm | 4 of 5 | H5 energy error (IEC power curve better) |
 | 10 Nov 2026 | [airliner aerodynamics](#airliner-aerodynamics) | NASA Common Research Model, wind tunnel | 4 of 5 | H3 lift beyond the measured Mach (LightGBM better) |
+| 14 Nov 2026 | [fifth suite: 7 new tables in the product's scope](registrations-v14b.md), version v14b | open tables | 5 of 7 | H2 reliability and H6 against v13 (4 vs 3 failures) |
+| 14 Nov 2026 | [expected power of wind turbines, a second farm](registrations-v14b.md), version v14b | Hill of Towie wind farm | 5 of 5 | |
 
-Registered and not yet run (fingerprints published before the runs, 14 November 2026): a fifth table suite and a
-second wind farm, with version v14b: [registrations-v14b.md](registrations-v14b.md).
+The last two tests, with version v14b, are the first whose fingerprints were published here before the runs
+(14 November 2026); their results, registrations and harness scripts: [registrations-v14b.md](registrations-v14b.md).
 
 The four table suites: [suites.md](suites.md). The four device examples: below, with their registrations, harness
 scripts and outputs in [`registered/`](registered/) and [`results/`](results/).

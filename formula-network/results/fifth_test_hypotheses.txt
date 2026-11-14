@@ -1,0 +1,34 @@
+                 edge  inside  lower  upper  pairs  over1  nonfinite_pairs   worst
+model                                                                             
+fnet_v13       0.3776  0.4500 0.3365 0.4709     35      3                0  1.7594
+fnet_v14b      0.3781  0.4395 0.3071 0.4683     35      4                0  1.8498
+ridge          0.5122  0.5530 0.4507 0.5768     35      5                0 15.2432
+ebm            0.5127  0.4478 0.5055 0.5127     35      5                0  4.7638
+ffx            0.5289  0.4810 0.4904 0.5325     35      4                1  4.1049
+catboost       0.5305  0.3956 0.5061 0.5605     35      5                0 11.7034
+mlp            0.5324  0.5172 0.5324 0.4623     35      5                0  4.1916
+catboost_tuned 0.5537  0.3909 0.4902 0.5591     35      5                0  9.2294
+xgboost        0.5603  0.4267 0.5293 0.6150     35      6                0  9.9102
+edge           0.5603     NaN 0.5374 0.5966     28      3                0  1.1957
+lightgbm_tuned 0.5637  0.3700 0.5191 0.5894     35      3                0  9.6248
+lightgbm       0.5848  0.4103 0.4866 0.6036     35      4                0  9.7832
+
+H6 pairs: 35; geometric mean fnet_v14b/fnet_v13 0.9997; inside 1.0040, edge 0.9986
+
+H7 pairs (RMSE / sd of the training target):
+                             table    split  near_n  far_n   near     far
+fifth__composite_curing_distortion    xfeat     447     38 0.6538  8.1726
+fifth__composite_curing_distortion xfeat_lo     469    100 0.0655  0.0342
+                fifth__hts_wire_ic xfeat_lo    1896    887 0.3224  0.8135
+               fifth__lpbf_density    xfeat      23    234 0.4171  1.0206
+            fifth__zr_hydrogen_tss    xfeat     394    348 0.7105  5.3526
+            fifth__zr_hydrogen_tss xfeat_lo     843     29 0.1464  0.6362
+            fifth__zr_hydrogen_tss       xy     862     65 2.9233 14.5319
+
+HOLDS  H1 edge (upper and lower tails): fnet <= tuned LightGBM: 0.3781 vs 0.5637
+FAILS  H2 pairs worse than the mean: fnet <= tuned LightGBM: 4 vs 3
+HOLDS  H3 inside: fnet <= 1.5 x tuned LightGBM: 0.4395 vs 1.5 x 0.3700 = 0.5550
+HOLDS  H5 edge: fnet <= 1.15 x MLP and <= 1.15 x EBM: 0.3781 vs 1.15 x 0.5324 = 0.6122, 1.15 x 0.5127 = 0.5896
+HOLDS  H4 compiled C: size ratio >= 10 and speed ratio >= 3 (medians over tables): size x56.8, speed x8.5
+FAILS  H6 v14b against v13: geometric mean of the ratio <= 1.02 and pairs worse than the mean not more: 0.9997; 4 vs 3
+HOLDS  H7 monitor: error at distance > 0.25 above the error at distance <= 0.1 in at least 2/3 of eligible pairs (at least 5 eligible): 6 of 7 pairs

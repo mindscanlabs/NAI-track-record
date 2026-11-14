@@ -1,0 +1,79 @@
+
+== iid1: 7 tables with every model (7 in all)
+         model  median_rel_rmse  median_r2  beats_lightgbm  beats_edge  tables_with_nonfinite
+lightgbm_tuned             0.37     0.8631               5         NaN                      0
+catboost_tuned           0.3909     0.8472               6         NaN                      0
+      catboost           0.3956     0.8435               6         NaN                      0
+      lightgbm           0.4103     0.8317             NaN         NaN                      0
+       xgboost           0.4267     0.8179               3         NaN                      0
+     fnet_v14b           0.4395     0.8068               2         NaN                      0
+           ebm           0.4478     0.7995               1         NaN                      0
+      fnet_v13             0.45     0.7975               2         NaN                      0
+           ffx            0.481     0.7687               1         NaN                      0
+           mlp           0.5172     0.7325               3         NaN                      0
+         ridge            0.553     0.6942               0         NaN                      0
+
+== xfeat: 7 tables with every model (7 in all)
+         model  median_rel_rmse  median_r2  beats_lightgbm  beats_edge  tables_with_nonfinite
+           mlp           0.3415     0.5392               6           6                      0
+     fnet_v14b           0.4266     0.2809               4           6                      0
+      fnet_v13           0.4266     0.2809               5           6                      0
+           ffx           0.4306     0.2655               4           6                      1
+           ebm           0.4683     0.1138               3           5                      0
+      catboost           0.5081      0.126               5           5                      0
+catboost_tuned           0.5286     0.1651               4           5                      0
+       xgboost           0.5672    0.08291               2           5                      0
+      lightgbm           0.5702     0.1639             NaN           5                      0
+lightgbm_tuned           0.5766     0.1264               4           5                      0
+         ridge           0.5825     0.1771               2           5                      0
+          edge           0.8254    -0.1386               2         NaN                      0
+
+== xy: 7 tables with every model (7 in all)
+         model  median_rel_rmse  median_r2  beats_lightgbm  beats_edge  tables_with_nonfinite
+          edge           0.4946      -1.44               5         NaN                      0
+     fnet_v14b             0.51    -0.2816               6           4                      0
+      fnet_v13           0.5153    -0.2816               6           4                      0
+           ebm           0.5571    -0.6678               5           3                      0
+         ridge           0.5712     -2.283               4           3                      0
+           ffx           0.5714     -2.273               5           2                      0
+catboost_tuned           0.5724     -1.051               4           3                      0
+           mlp           0.5884     -0.446               7           4                      0
+lightgbm_tuned           0.6022     -1.357               6           3                      0
+      lightgbm           0.6079     -1.897             NaN           2                      0
+      catboost            0.613    -0.9939               5           3                      0
+       xgboost           0.6628    -0.9166               4           3                      0
+
+== time: 0 tables with every model (0 in all)
+Empty DataFrame
+Columns: [model, median_rel_rmse, median_r2, beats_lightgbm, beats_edge, tables_with_nonfinite]
+Index: []
+
+== xfeat_lo: 7 tables with every model (7 in all)
+         model  median_rel_rmse  median_r2  beats_lightgbm  beats_edge  tables_with_nonfinite
+      fnet_v13           0.3804      0.618               3           5                      0
+     fnet_v14b           0.3815     0.6158               3           5                      0
+           ffx            0.441     0.2981               3           4                      0
+         ridge           0.4472     0.4721               3           5                      0
+           mlp           0.4926     0.3595               3           4                      0
+      lightgbm            0.548     0.3909             NaN           6                      0
+lightgbm_tuned           0.5508     0.2595               1           6                      0
+      catboost           0.5529     0.4432               3           4                      0
+       xgboost           0.5533      0.326               0           4                      0
+catboost_tuned           0.5616     0.4379               4           5                      0
+           ebm           0.5631     0.4785               1           4                      0
+          edge           0.7378    -0.1054               1         NaN                      0
+
+== xy_lo: 7 tables with every model (7 in all)
+         model  median_rel_rmse  median_r2  beats_lightgbm  beats_edge  tables_with_nonfinite
+          edge           0.1738     -4.051               5         NaN                      0
+      fnet_v13           0.1856      -2.38               4           4                      0
+     fnet_v14b           0.1861     -2.399               4           4                      0
+catboost_tuned           0.3381     -3.083               5           2                      0
+      catboost           0.3761     -4.053               4           2                      0
+lightgbm_tuned           0.3878      -4.37               6           3                      0
+      lightgbm           0.4084     -4.956             NaN           2                      0
+           ebm           0.4479     -29.22               4           1                      0
+         ridge           0.4543     -19.25               2           0                      0
+       xgboost           0.4643      -1.97               4           3                      0
+           ffx           0.5399      -27.6               3           0                      0
+           mlp           0.5721     -10.69               3           2                      0

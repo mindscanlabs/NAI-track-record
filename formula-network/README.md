@@ -22,6 +22,9 @@ examples and their simulators: [naiscience.com/fnet.html](https://naiscience.com
 | 9 Nov 2026 | [expected power of wind turbines](#expected-power-of-wind-turbines) | Penmanshiel wind farm | 4 of 5 | H5 energy error (IEC power curve better) |
 | 10 Nov 2026 | [airliner aerodynamics](#airliner-aerodynamics) | NASA Common Research Model, wind tunnel | 4 of 5 | H3 lift beyond the measured Mach (LightGBM better) |
 
+Registered and not yet run (fingerprints published before the runs, 14 November 2026): a fifth table suite and a
+second wind farm, with version v14b: [registrations-v14b.md](registrations-v14b.md).
+
 The four table suites: [suites.md](suites.md). The four device examples: below, with their registrations, harness
 scripts and outputs in [`registered/`](registered/) and [`results/`](results/).
 

@@ -54,7 +54,7 @@ A183880  NAI: recurrence | Claude: closed form, g.f. | accepted (as conjectures,
         │   ├── A183885  empirical formula (Kotesovec), conjectures (Barker): proved
         │   ├── A183886  empirical formula (Kotesovec), conjectures (Barker): proved
         │   ├── A183887  new formula, proved
-        │   ├── A183888  new formula, proved | pending
+        │   ├── A183888  new formula, proved | accepted
         │   ├── A183889  new formula, proved | accepted
         │   ├── A183890  new formula, proved | accepted
         │   ├── A183891  new formula, proved | pending
@@ -65,7 +65,7 @@ A183880  NAI: recurrence | Claude: closed form, g.f. | accepted (as conjectures,
         │   └── A183904  table: every column covered
         ├── Nondecreasing arrangements, sum of two others
         │   ├── A183905 ... A183907, A183909  empirical formulas (Hardin), conjectures (Barker): proved
-        │   ├── A183908, A183910, A183911  formulas proved; Barker's recurrences hold one step later than stated | A183908, A183910 accepted
+        │   ├── A183908, A183910, A183911  formulas proved; Barker's recurrences hold one step later than stated | accepted
         │   └── A183912  table; Israel (2018): columns are eventually polynomials, already known; generalized to all s
         ├── Theorem on exponentials  Claude: k^n (k < q) can occur only if some set of k residues
         │   fails to cover Z_q by s-fold sums; the converse is a conjecture, true in all 23 cases computed
@@ -85,9 +85,9 @@ In numbers:
   one step later than stated.
 
 Accepted in the OEIS so far: A183880 (the conjectures, then their proof), the new
-formulas in A183881 to A183883, A183887, A183889 and A183890, and the general comments on
+formulas in A183881 to A183883 and A183887 to A183890, and the general comments on
 the columns in the tables A183884 and A183892, and the corrected ranges of recurrences in
-A183908 and A183910. A183888 and A183891 are under review. The rest is not yet
+A183908, A183910 and A183911. A183891 is under review. The rest is not yet
 submitted; all of it is in the
 [preprint](../hardin-sumsets/hardin-sumsets.pdf).
 
@@ -143,10 +143,11 @@ A263316, A212915, A212916  NAI: recurrences | already known (they were in the pr
 |---|---|---|
 | [A183880](https://oeis.org/A183880) | accepted (as conjectures, then the proof: "Conjectures" removed) | [history](https://oeis.org/history?seq=A183880) |
 | [A183883](https://oeis.org/A183883) | accepted (a new closed form with its proof and the g.f.) | [history](https://oeis.org/history?seq=A183883) |
-| [A183888](https://oeis.org/A183888) | pending (a new closed form with its proof and the g.f., submitted 2026-11-11) | |
 | [A183891](https://oeis.org/A183891) | pending (a new closed form with its proof and the g.f., submitted 2026-11-13) | |
 | [A183908](https://oeis.org/A183908) | accepted (the conjectured recurrence holds for n > 8, not n > 7) | [history](https://oeis.org/history?seq=A183908) |
 | [A183910](https://oeis.org/A183910) | accepted (the conjectured recurrence holds for n > 11, not n > 10) | [history](https://oeis.org/history?seq=A183910) |
+| [A183911](https://oeis.org/A183911) | accepted (the conjectured recurrence holds for n > 12, not n > 11) | [history](https://oeis.org/history?seq=A183911) |
+| [A183888](https://oeis.org/A183888) | accepted (a new closed form with its proof and the g.f.) | [history](https://oeis.org/history?seq=A183888) |
 | [A183889](https://oeis.org/A183889) | accepted (a new closed form with its proof and the g.f.) | [history](https://oeis.org/history?seq=A183889) |
 | [A183890](https://oeis.org/A183890) | accepted (a new closed form with its proof and the g.f.) | [history](https://oeis.org/history?seq=A183890) |
 | [A183881](https://oeis.org/A183881) | accepted | [history](https://oeis.org/history?seq=A183881) |

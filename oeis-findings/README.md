@@ -99,7 +99,7 @@ A180283  NAI: recurrence | Claude: closed form, proof | accepted
 A321838  NAI: recurrence | Claude: g.f. (accepted); then proof and a new formula | accepted
 └── A213291  Claude: g.f., follows from the g.f. of A321839 | not yet submitted
         ↑
-A321839  NAI: algebraic g.f. (conjecture) | not yet submitted
+A321839  NAI: algebraic g.f. (conjecture) | pending
 
 A052372  NAI: g.f. | Claude: proof (Burnside's lemma), explicit numerator, asymptotics | accepted
 └── A052373  Claude: g.f. by the same argument, proof | accepted
@@ -158,7 +158,8 @@ A263316, A212915, A212916  NAI: recurrences | already known (they were in the pr
 | [A180283](https://oeis.org/A180283) | accepted | [history](https://oeis.org/history?seq=A180283) |
 | [A180284](https://oeis.org/A180284), [A180285](https://oeis.org/A180285) | not yet submitted | |
 | [A321838](https://oeis.org/A321838) | accepted | [history](https://oeis.org/history?seq=A321838) |
-| [A321839](https://oeis.org/A321839), [A213291](https://oeis.org/A213291) | not yet submitted | |
+| [A321839](https://oeis.org/A321839) | pending (an algebraic g.f. of degree 4 as a conjecture, the equation in an attached file, submitted 2026-11-23) | |
+| [A213291](https://oeis.org/A213291) | not yet submitted (follows from the g.f. of A321839) | |
 | [A052372](https://oeis.org/A052372) | accepted | [history](https://oeis.org/history?seq=A052372) |
 | [A052373](https://oeis.org/A052373) | accepted (the g.f. as an attached file and the asymptotics) | [history](https://oeis.org/history?seq=A052373) |
 | [A122680](https://oeis.org/A122680) | accepted | [history](https://oeis.org/history?seq=A122680) |

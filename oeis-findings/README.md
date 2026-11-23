@@ -1,6 +1,6 @@
 # OEIS findings that began with NAI
 
-Status as of 2026-11-13.
+Status as of 2026-11-23.
 
 This is the history of a set of contributions to the
 [OEIS](https://oeis.org) that started from formulas found by the NAI (No-Ansatz
@@ -57,7 +57,7 @@ A183880  NAI: recurrence | Claude: closed form, g.f. | accepted (as conjectures,
         │   ├── A183888  new formula, proved | accepted
         │   ├── A183889  new formula, proved | accepted
         │   ├── A183890  new formula, proved | accepted
-        │   ├── A183891  new formula, proved | pending
+        │   ├── A183891  new formula, proved | accepted
         │   └── A183892  table: every column covered; Claude: a general comment on the recurrence orders | accepted
         ├── Nondecreasing arrangements, sum of three others
         │   ├── A183897 ... A183901  empirical formulas (Hardin), conjectures (Barker): proved
@@ -85,10 +85,9 @@ In numbers:
   one step later than stated.
 
 Accepted in the OEIS so far: A183880 (the conjectures, then their proof), the new
-formulas in A183881 to A183883 and A183887 to A183890, and the general comments on
+formulas in A183881 to A183883 and A183887 to A183891, and the general comments on
 the columns in the tables A183884 and A183892, and the corrected ranges of recurrences in
-A183908, A183910 and A183911. A183891 is under review. The rest is not yet
-submitted; all of it is in the
+A183908, A183910 and A183911. The rest is not yet submitted; all of it is in the
 [preprint](../hardin-sumsets/hardin-sumsets.pdf).
 
 ## 2. Other branches
@@ -143,7 +142,7 @@ A263316, A212915, A212916  NAI: recurrences | already known (they were in the pr
 |---|---|---|
 | [A183880](https://oeis.org/A183880) | accepted (as conjectures, then the proof: "Conjectures" removed) | [history](https://oeis.org/history?seq=A183880) |
 | [A183883](https://oeis.org/A183883) | accepted (a new closed form with its proof and the g.f.) | [history](https://oeis.org/history?seq=A183883) |
-| [A183891](https://oeis.org/A183891) | pending (a new closed form with its proof and the g.f., submitted 2026-11-13) | |
+| [A183891](https://oeis.org/A183891) | accepted (a new closed form with its proof and the g.f.) | [history](https://oeis.org/history?seq=A183891) |
 | [A183908](https://oeis.org/A183908) | accepted (the conjectured recurrence holds for n > 8, not n > 7) | [history](https://oeis.org/history?seq=A183908) |
 | [A183910](https://oeis.org/A183910) | accepted (the conjectured recurrence holds for n > 11, not n > 10) | [history](https://oeis.org/history?seq=A183910) |
 | [A183911](https://oeis.org/A183911) | accepted (the conjectured recurrence holds for n > 12, not n > 11) | [history](https://oeis.org/history?seq=A183911) |
